@@ -1,0 +1,51 @@
+# Virtual environment
+venv/
+
+# Database
+db.sqlite3
+
+# Static files
+staticfiles/
+
+# Environment variables
+.env
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+local_settings.py
+
+# IDE settings
+.idea/
+
+# Ignore migration files
+**/migrations/
+
+# Ignore local configuration
+local_settings.py
+
+# Ignore artifacts and build directories
+*.pyo
+*.pyc
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore test database
+*.db.sqlite3
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+
+# Ignore Mac system files
+.DS_Store

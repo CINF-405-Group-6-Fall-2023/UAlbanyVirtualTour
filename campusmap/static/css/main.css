@@ -1,0 +1,61 @@
+/* Global link styles */
+a, a:link, a:visited, a:hover, a:active {
+  color: #0A036D;
+  text-decoration: none;
+}
+
+/* Responsive image styles */
+img {
+  width: 100%; /* Make images responsive within their container */
+  max-width: 100%; /* Prevent images from overflowing their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #F69341;
+  height: 920px;
+}
+
+/* Title styles */
+.title {
+  background-color: DarkSalmon;
+  text-align: center;
+  height: 830px;
+}
+
+/* Links container styles */
+.links-container {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #F0E68C;
+  height: 300px;
+  width: 30%;
+}
+
+/* Individual link styles */
+.link {
+  margin-right: 20px;
+  color: #0A036D;
+}
+
+/* Information container styles */
+.info-container {
+  background-color: #F0E68C;
+  text-align: center;
+  width: 100%;
+}
+
+/* Holder container styles */
+.holder-container {
+  text-align: center;
+  background-color: #F0E68C;
+  height: 300px;
+  width: 90%;
+  margin: auto;
+}

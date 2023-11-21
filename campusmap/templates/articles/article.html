@@ -1,0 +1,88 @@
+<!-- articles/article.html -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>UAlbany Virtual Tour</title>
+
+    {% load static %}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+</head>
+<body>
+
+    <div class="outline">
+        <h1>UAlbany Virtual Tour</h1>
+    
+        <div class="begin">
+            <h2>{{ building_info.title }}</h2>
+    
+            <article class="info">
+                <h3>About</h3>
+                <p>{{ building_info.mission }}</p>
+                <p>{{ building_info.values }}</p>
+                <p>{{ building_info.vision }}</p>
+    
+                {% if building_info.amenities %}
+                    <h3>Amenities</h3>
+                    <ul id="amenities">
+                        {% for amenity in building_info.amenities %}
+                            <li>{{ amenity }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+    
+                {% if building_info.hours %}
+                    <h5>Hours</h5>
+                    <ul id="hours">
+                        {% for hour in building_info.hours %}
+                            <li>{{ hour }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+    
+                {% if building_info.performances %}
+                    <h4>Performances</h4>
+                    <ul id="performances">
+                        {% for performance in building_info.performances %}
+                            <li><a href="{{ performance.link }}" title="{{ performance.name }}">{{ performance.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+    
+                {% if building_info.access_hours_contact %}
+                    <h4>Access, Hours and Contact</h4>
+    
+                    {% if building_info.access_hours_contact.building_access %}
+                        <h5>Building Access</h5>
+                        <ul id="building-access">
+                            {% for access in building_info.access_hours_contact.building_access %}
+                                <li>{{ access }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+    
+                    {% if building_info.access_hours_contact.office_hours %}
+                        <h5>Office Hours</h5>
+                        <ul id="office-hours">
+                            {% for office_hour in building_info.access_hours_contact.office_hours %}
+                                <li>{{ office_hour }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+    
+                    {% if building_info.access_hours_contact.contact_info %}
+                        <h5>Contact Information</h5>
+                        <ul id="contact-info">
+                            {% for key, value in building_info.access_hours_contact.contact_info.items %}
+                                <li><strong></strong> {{ value }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                {% endif %}
+            </article>
+        </div>
+    </div>
+
+</body>
+</html>
