@@ -1,5 +1,11 @@
-<!--Unfortunately, HTML does not allow you to apply image effects to areas of image maps.
-Thankfully, we were able to find a jQuery library that would help us with that-->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>UAlbany Vitual Tour - Interactive Map</title>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
 
@@ -32,6 +38,11 @@ Thankfully, we were able to find a jQuery library that would help us with that--
 	});
 </script>
 
+</head>
+
+<body>
+<!--Unfortunately, HTML does not allow you to apply image effects to areas of image maps.
+Thankfully, we were able to find a jQuery library that would help us with that-->
 <img class="map" src="mapUptown.png" usemap="#image-map" >
 <map name="image-map">
     <area target="" alt="Lecture Center" title="Lecture Center" href="placeholder.html" coords="1091,737,1216,644" shape="rect">
@@ -65,3 +76,6 @@ Thankfully, we were able to find a jQuery library that would help us with that--
     <area target="" alt="Physical Education Building" title="Physical Education Building" href="" coords="1099,1153,1087,1141,1218,1141,1208,1153,1208,1219,1214,1219,1214,1244,1093,1244,1093,1217,1099,1217" shape="poly">
     <area target="" alt="Broadview Center (SEFCU Arena)" title="Broadview Center (SEFCU Arena)" href="" coords="1115,1248,1192,1309" shape="rect">
 </map>
+
+</body>
+</html>
