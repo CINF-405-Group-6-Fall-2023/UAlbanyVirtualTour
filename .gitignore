@@ -1,51 +1,54 @@
-# Virtual environment
-venv/
+# Python
+*.pyc
+__pycache__/
 
-# Database
+# Virtual Environment
+venv/
+pyvenv.cfg
+Pipfile.lock
+pipfile.lock
+pipenv.lock
+
+# Django
+*.log
+*.pot
+*.pyc
 db.sqlite3
+media/
 
 # Static files
 staticfiles/
-
-# Environment variables
-.env
-
-# Compiled Python files
-__pycache__/
-*.pyc
-
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
 
 # Local development settings
 local_settings.py
 
 # IDE settings
 .idea/
+.vscode/
 
-# Ignore migration files
-**/migrations/
-
-# Ignore local configuration
-local_settings.py
-
-# Ignore artifacts and build directories
-*.pyo
-*.pyc
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.obj
+*.dll
+*.pyd
+*.pyo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Compiled Python files
 *.pyc
 *.pyo
 *.pyd
 
-# Ignore test database
-*.db.sqlite3
-
-# Ignore coverage reports
-.coverage
-htmlcov/
-
-# Ignore Mac system files
-.DS_Store
+# Exclude virtual environment directories
+campusmap/Include/
+campusmap/Scripts/
+campusmap/Lib/
