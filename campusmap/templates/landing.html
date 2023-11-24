@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>{% block title %}UAlbany Virtual Tour - Landing Page{% endblock %}</title>
+
+	<!-- Load the static tag at the top of the file -->
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'css/landing.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Public+Sans">
+</head>
+
+<body>
+    <header class="heading">
+        <h1>UAlbany Virtual Tour</h1>
+    </header>
+    <hr>
+    <h2>Welcome to our website!</h2>
+    <p>Our website is designed to help you navigate the UAlbany campus!<br><br>
+    You might be a graduating high-schooler, a newly-accepted freshman or transfer student, 
+    a worried parent, or even just someone who's simply interested in this school, and we understand
+    that the University and its large in-person locations might be hard to navigate.<br><br>
+    That's why we made this virtual tour - to help you get around the campus and learn more
+    about its important locations and history!</p>
+    <hr>
+    <h2>Directions</h2>
+    <ol>
+        <li>Click one of the links below.</li>
+        <li>Hover over the areas that you are interested in. Their names will pop up.</li>
+        <li>Click that area to be taken to a page describing that location.</li>
+    </ol> 
+    <p>And that's all there is to it! Happy exploration!</p>
+    <hr>
+    <h2>Links</h2>
+    <a href="{% url 'map' %}">Explore the Uptown Campus</a> 
+    <br><br>
+    <footer class="footing">
+        <p>Programmed by Akinde Mendoza, Jeremy J. Lam, Joseph A. Zarakas, 
+        Othmane Benkhalifa, & Godswill U. Utionkpan<br>
+        for Professor Kimberly Cornell's Fall 2023 CINF 405 class</p>
+    </footer>
+</body>
+</html>

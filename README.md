@@ -57,4 +57,4 @@ If you'd like to contribute to the development of the UAlbany Virtual Tour Campu
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE)
