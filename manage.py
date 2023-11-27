@@ -6,6 +6,8 @@ import sys
 from shutil import which  # Python 3.3 and later
 from functools import cache  # Python 3.9 and later
 
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'campusmap.settings')
+
 # ANSI escape codes for text formatting
 RESET = "\033[0m"
 BOLD = "\033[1m"
@@ -37,20 +39,29 @@ def run_server_locally():
 
 def activate_virtualenv():
     """Activate the virtual environment."""
-    activation_command = "campusmap\\Scripts\\activate" if sys.platform == "win32" else "source campusmap/bin/activate"
-    os.system(activation_command)
+    if sys.platform == "win32":
+        os.system("campusmap\\Scripts\\activate")
+    else:
+        os.system("source campusmap/bin/activate")
 
 def create_and_activate_virtualenv():
     """Create and activate the virtual environment."""
     try:
         os.system("python -m venv campusmap")
         print_checklist("1. Create and activate the virtual environment:", True)
-        activate_virtualenv()  # Activate the virtual environment
-        print_checklist("1. Create and activate the virtual environment:", True)
     except Exception as e:
         print_checklist("1. Create and activate the virtual environment:", False)
-        print_colored(f"Error: {e}\nPlease check if you have the necessary permissions to create or activate the virtual environment.", RED)
+        print_colored(f"Error: {e}\nPlease check if you have the necessary permissions to create a virtual environment.", RED)
         sys.exit(1)
+
+    if sys.platform == "win32":
+        try:
+            activate_virtualenv()  # Activate the virtual environment
+            print_checklist("1. Create and activate the virtual environment:", True)
+        except Exception as e:
+            print_checklist("1. Create and activate the virtual environment:", False)
+            print_colored(f"Error: {e}\nPlease check if you have the necessary permissions to activate the virtual environment.", RED)
+            sys.exit(1)
 
 def install_django():
     """Install Django."""
