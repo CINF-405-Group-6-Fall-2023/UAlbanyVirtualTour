@@ -1,71 +1,68 @@
+/* Reset some default styles for the body */
 body {
-  font-family: 'Public Sans', sans-serif;
-  line-height: 1.5rem;
+  font-family: 'Arial', sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background */
 }
 
-hr {
-  color: #eeb211;
-  background-color: #eeb211;
-  height: 3px;
-  border-width: 0;
+/* Link styles */
+a:link, a:visited, a:hover, a:active {
+  color: #800080; /* Purple */
+  text-decoration: none;
 }
 
+/* Set styles for images */
+img {
+  width: 150px;
+  height: 150px;
+}
+
+/* Set styles for the outline class */
 .outline {
-  margin: 20px;
+  margin: auto;
+  background-color: #ffd700; /* Gold */
+  text-align: center;
   padding: 20px;
-  border: 1px solid #46166b;
 }
 
-h1 {
-  color: #46166b;
-  font-weight: 900;
+/* Header styles */
+header {
+  background-color: #ffd700; /* Gold */
 }
 
-h2 {
-  margin-top: 20px;
-  color: #46166b;
-  font-weight: 800;
+/* Styles for the begin class */
+.begin {
+  margin: auto;
+  background-color: #800080; /* Purple */
+  text-align: center;
+  padding: 20px;
 }
 
-h3 {
-  margin-top: 15px;
-  color: #46166b;
-  font-weight: 700;
+/* Styles for the info class */
+.info {
+  margin: auto;
+  background-color: #ffffff; /* White */
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-h4 {
-  margin-top: 15px;
-  color: #46166b;
-  font-weight: 600;
+/* Styles for unordered lists inside the info class */
+.info ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-h5 {
-  margin-top: 15px;
-  color: #46166b;
-  font-weight: 500;
+/* Styles for list items inside the info class */
+.info li {
+  padding: 5px 0;
 }
 
-p, ul {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: #46166b;
-}
-
-a {
-  color: #eeb211;
-}
-
-@media screen and (max-width: 600px) {
-  h1 {
-      font-size: 1.5em;
-  }
-
-  h2 {
-      font-size: 1.2em;
-  }
-
-  p, ul, a {
-      font-size: 0.9em;
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+  .info {
+      width: 100%;
+      float: none;
   }
 }

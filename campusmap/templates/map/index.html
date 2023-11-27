@@ -13,46 +13,32 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
     <script type="text/javascript" src="{% static 'js/htmx.min.js' %}"></script>
     <!-- maphilight styles (customize as needed) -->
-    <style>
-        .maphilighted {
-            fill: true;
-            fillColor: '46166b';
-            fillOpacity: 0.5;
-            stroke: true;
-            strokeColor: 'eeb211';
-            strokeOpacity: 1;
-            strokeWidth: 5;
-            fade: true;
-            alwaysOn: false;
-            neverOn: false;
-            groupBy: false;
-            wrapClass: true;
-            shadow: false;
-            shadowX: 0;
-            shadowY: 0;
-            shadowRadius: 6;
-            shadowColor: '000000';
-            shadowOpacity: 0.8;
-            shadowPosition: 'outside';
-            shadowFrom: false;
-        }
-    </style>
     <script type="text/javascript">
-        $(document).ready(function () {
+        <!--When changing default settings, the maphilight plugin forces you to specifiy EVERYTHING, or else it will break-->
+        $.fn.maphilight.defaults = {
+            fill: true,
+            fillColor: '46166b',
+            fillOpacity: 0.5,
+            stroke: true,
+            strokeColor: 'eeb211',
+            strokeOpacity: 1,
+            strokeWidth: 5,
+            fade: true,
+            alwaysOn: false,
+            neverOn: false,
+            groupBy: false,
+            wrapClass: true,
+            shadow: false,
+            shadowX: 0,
+            shadowY: 0,
+            shadowRadius: 6,
+            shadowColor: '000000',
+            shadowOpacity: 0.8,
+            shadowPosition: 'outside',
+            shadowFrom: false
+        }
+        $(document).ready(function() {
             $('.map').maphilight();
-
-            // Handle click event on map areas using htmx
-            $('area').htmx({
-                'hx-get': '{% url "get_building_info" building_slug="dummy" %}',  // Dummy URL
-                'hx-trigger': 'click',
-                'hx-target': '#building-details',
-                'hx-swap': 'outerHTML',
-                'hx-vals': {
-                    'building_slug': function (el) {
-                        return el.getAttribute('data-building-slug');
-                    }
-                }
-            });
         });
     </script>
 </head>
@@ -93,11 +79,6 @@
         <area target="" alt="Physical Education Building" title="Physical Education Building" href="" coords="1099,1153,1087,1141,1218,1141,1208,1153,1208,1219,1214,1219,1214,1244,1093,1244,1093,1217,1099,1217" shape="poly">
         <area target="" alt="Broadview Center (SEFCU Arena)" title="Broadview Center (SEFCU Arena)" href="" coords="1115,1248,1192,1309" shape="rect">
     </map>
-
-    <!-- Display fetched building details using htmx -->
-    <div id="building-details" hx-target="#building-details" hx-swap="outerHTML">
-        <h2>Loading building details...</h2>
-    </div>
 
 </body>
 </html>

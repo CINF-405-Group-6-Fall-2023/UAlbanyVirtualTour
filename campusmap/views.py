@@ -25,6 +25,7 @@ def get_building_info(request, building_slug):
                 'Sunday: 10 a.m. to 11 p.m.',
             ],
         },
+        
         # Add more buildings as needed
         'performing-arts-center': {
             'title': 'Performing Arts Center',
@@ -58,5 +59,5 @@ def get_building_info(request, building_slug):
         },
     }
 
-    building_info_selected = building_info.get(building_slug, {})
+    building_info_selected = dict(building_info.get(building_slug, {}))
     return render(request, 'articles/article.html', {'building_info': building_info_selected})
