@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang = "en">
+<head> 
+<title> The Massry Center for Business </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel ="stylesheet"
+type ="text/css"
+href ="refCSS.css"/>
+
+</head>
+<body>
+
+<div class="outline">
+<h1>UAlbany Virtual Tour</h1>
+
+<div class="begin">
+<h2> The Massry Center For Business </h2>
+
+<article  class="info">
+<h3> School of Business </h3>
+  <p> We provide high quality business education and advance knowledge through scholarly and applied research, and by engaging effectively with alumni and the
+  business and academic communities. We also offer innovative and distinctive niche programs and experiential learning opportunities, in collaboration with 
+  campus and corporate partners. These programs provide our students with a competitive edge in the job market. With the school’s strong pipelines to the 
+  business community the majority of our students are placed in jobs before graduation and have access to top executives in leading firms. School of Business 
+  alumni become a powerful network of leaders truly shaping the business world. </p>
+
+<h3> Our Identity </h3>
+<p>From opportunity to impact: 
+We should serve as a gateway to opportunities for our students, staff, and faculty so that they can have a positive impact on their professions and communities.</p>
+
+<p>Our Vision: 
+Enhance our standing as an innovative, research-oriented, diverse business school that provides experiential learning for our students and professional 
+development for our students, staff, and faculty.</p>
+
+<p>Our Mission: 
+Nurture sophisticated, ethical, globally oriented leaders for a digital economy. We will accomplish this by providing rigorous business education, advancing 
+knowledge through scholarly and applied research, and engaging alumni and the business community. We will offer innovative programs that make our students 
+technologically adept and provide them a competitive edge. </p>
+
+<h3> SCHOOL LEADERSHIP </h3>
+
+<p>Dr. Kevin J. Williams ||
+Interim Dean</p>
+<p>Janet Marler ||
+Associate Dean and Professor</p>
+<p>William Wales ||
+Associate Dean for Research and Standish Professor of Entrepreneurship and Chair, Management</p>
+<p>Tara Curley ||
+Vice Dean, Finance and Administrative Operations</p>
+<p>Ann Hughes ||
+Director of Development</p>
+
+
+<h4> Hours & Contact</h4>
+<p> On-Site: Monday - Friday, 9 a.m. to 5 p.m. </p>
+
+<p> Contact </p> 
+<p>Phone 518-956-8320</p>
+
+<p>The Massry Center for Business
+PAC 266
+1400 Washington Avenue
+Albany, NY 12222 </p> 
+</article>
+</div>
+</div>
+</div>
+
+</body>
+</html>
