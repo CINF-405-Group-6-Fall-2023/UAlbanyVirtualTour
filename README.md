@@ -1,5 +1,7 @@
 # UAlbany Virtual Tour Campus Map
 
+*Programmed by Akinde Mendoza, Jeremy J. Lam, Joseph A. Zarakas, Othmane Benkhalifa, & Godswill U. Utionkpan, for Professor Kimberly Cornell's Fall 2023 CINF 405 class*
+
 ## Overview
 
 The UAlbany Virtual Tour Campus Map is a Django-based web application that provides an interactive map for exploring the University at Albany's campus virtually. This project is part of a class assignment to create an engaging and informative tool for navigating the university's various locations.
@@ -8,12 +10,7 @@ The UAlbany Virtual Tour Campus Map is a Django-based web application that provi
 
 ### Prerequisites
 
-Ensure you have the following prerequisites installed on your system:
-
-- Python 3
-- Pip (Python package installer)
-- Git
-- Django
+Ensure you have Python 3 installed on your system.
 
 ### Setup Instructions
 
@@ -29,10 +26,10 @@ Ensure you have the following prerequisites installed on your system:
     cd UAlbanyVirtualTour
     ```
 
-3. Run the setup script:
+3. Install the required dependencies and set up the Django project:
 
     ```bash
-    python setup.py setup
+    python manage.py setup
     ```
 
     This script will check for and install the required dependencies, create and activate a virtual environment, and set up the Django project.
