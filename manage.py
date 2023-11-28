@@ -3,8 +3,16 @@
 
 import os
 import sys
-from shutil import which  # Python 3.3 and later
-from functools import cache  # Python 3.9 and later
+from shutil import which
+from functools import cache
+
+# Install colorama and Django
+os.system("pip install colorama django")
+
+# Import colorama and initialize it for colored output on Windows
+from colorama import init
+
+init()
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'campusmap.settings')
 
@@ -40,7 +48,7 @@ def run_server_locally():
 def activate_virtualenv():
     """Activate the virtual environment."""
     if sys.platform == "win32":
-        os.system("campusmap\\Scripts\\activate")
+        os.system(".\\campusmap\\Scripts\\activate")
     else:
         os.system("source campusmap/bin/activate")
 
