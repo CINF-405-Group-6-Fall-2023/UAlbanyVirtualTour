@@ -9,6 +9,13 @@ def map_view(request):
 
 def get_building_info(request, building_slug):
     building_info = {
+        'lecture-center': {
+            'title': 'Lecture Center',
+            'mission': "The Lecture Center, as its name states, is where you’ll go to see many of your lectures. It holds 25 different large halls, auditoriums, and computer rooms that can seat upwards of 50, if not 100, students each, and lessons on a wide variety of subjects will take place there.",
+            'history': "The Lecture Center was first built in 1969, and has undergone many changes and renovations since then, with the replacement of old electrical, plumbing, and ventilation systems and lighting and carpet, and the addition of new audio-visual systems continuing up through 2023, in the University’s efforts to make the campus, safer, more accessible, and on top of modern trends in technology.",
+            'amenities': ['25 Different Lecture Halls, Auditoriums, and Computer Rooms', 'In-Door Seating', 'Outdoor Fountain with additional seating and tables', 'Financial Aid/Dean/Registrar Office', 'Argo Tea Shop', 'Connected pathways to the basement levels of every surrounding class building'],
+        },
+
         'campus-center': {
             'title': 'Campus Center',
             'mission': "The Campus Center provides a convenient place...",
