@@ -6,14 +6,6 @@ import sys
 from shutil import which
 from functools import cache
 
-# Install colorama and Django
-os.system("pip install colorama django")
-
-# Import colorama and initialize it for colored output on Windows
-from colorama import init
-
-init()
-
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'campusmap.settings')
 
 # ANSI escape codes for text formatting
