@@ -25,20 +25,18 @@
                         {% if building_info.mission%}
                             <p>{{ building_info.mission }}</p>
                         {% endif %}
-                        {% comment %} {% if building_info.history%}
+                        {% if building_info.history%}
+                            <h3>History</h3>
                             <p>{{ building_info.history }}</p>
                         {% endif %}
-                        {% if building_info.values%}
+                        {% if building_info.values is not none%}
+                            <h3>Values</h3>
                             <p>{{ building_info.values }}</p>
                         {% endif %}
                         {% if building_info.vision%}
+                            <h3>Vision</h3>
                             <p>{{ building_info.vision }}</p>
-                        {% endif %} {% endcomment %}
-                        <!-- Add a "History" section -->
-                        {% if building_info.history %}
-                            <h4>History</h4>
-                            <p>{{ building_info.history }}</p>
-                        {% endif %}
+                        {% endif %} 
                     </section>
 
                     {% if building_info.amenities %}
