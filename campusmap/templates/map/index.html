@@ -48,7 +48,7 @@
     <img class="map" src="{% static 'img/mapUptown.png' %}" usemap="#image-map">
 
     <map name="image-map">
-	<area target="" alt="Lecture Center" title="Lecture Center" href="/get_building_info/lecture-center/" coords="1091,737,1216,644" shape="rect">
+	<area target="" alt="Lecture Center" title="Lecture Center" href="{% url 'get_building_info' building_slug='lecture-center' %}" coords="1091,737,1216,644" shape="rect">
 	<area target="" alt="Campus Center" title="Campus Center" href="{% url 'get_building_info' building_slug='campus-center' %}" coords="1050,867,1052,797,1122,797,1120,751,1142,751,1142,770,1167,770,1167,751,1190,751,1188,797,1210,797,1210,805,1237,805,1237,830,1206,830,1206,864,1167,865,1167,834,1142,834,1142,867" shape="poly">
 	<area target="" alt="University Library" title="University Library" href="" coords="996,657,1080,657,1080,682,1058,682,1058,698,1080,698,1078,723,996,723" shape="poly">
 	<area target="" alt="Performing Arts Center" title="Performing Arts Center" href="{% url 'get_building_info' building_slug='performing-arts-center' %}" coords="1229,657,1295,657,1295,723,1229,723,1229,698,1247,698,1247,680,1229,680" shape="poly">
