@@ -1,4 +1,5 @@
 # views.py
+from django.http import Http404
 from django.shortcuts import render
 
 def index(request):
@@ -14,13 +15,12 @@ def get_building_info(request, building_slug):
             'mission': "The Lecture Center, as its name states, is where you'll go to see many of your lectures. It holds 25 different large halls, auditoriums, and computer rooms that can seat upwards of 50, if not 100, students each, and lessons on a wide variety of subjects will take place there.",
             'history': "The Lecture Center was first built in 1969, and has undergone many changes and renovations since then, with the replacement of old electrical, plumbing, and ventilation systems and lighting and carpet, and the addition of new audio-visual systems continuing up through 2023, in the University’s efforts to make the campus, safer, more accessible, and on top of modern trends in technology.",
             'amenities': ['25 Different Lecture Halls, Auditoriums, and Computer Rooms', 'In-Door Seating', 'Outdoor Fountain with additional seating and tables', 'Financial Aid/Dean/Registrar Office', 'Argo Tea Shop', 'Connected pathways to the basement levels of every surrounding class building'],
-            'values': "None",
         },
         
         'campus-center': {
             'title': 'Campus Center',
             'mission': "The Campus Center provides a convenient place...",
-            'values': "We value diversity, inclusion, sustainability...",
+            'ideals': "We value diversity, inclusion, sustainability...",
             'vision': "Be the nexus of collaboration, connection, and service...",
             'amenities': ['Auditorium', 'Dining', 'AcaDamien\'s Bookstore', 'Financial Aid/Dean/Registrar Office', 'Banking', 'Lounging Area', 'Wireless Internet'],
             'hours': [
@@ -37,7 +37,7 @@ def get_building_info(request, building_slug):
         'university-library': {
             'title': 'University Library',
             'mission': "The University Library will be a major part of your academic career here at UAlbany! Not only does it offer both borrowable physical academic and entertainment media, it also offers free access to several online databases of peer-reviewed articles and journals, study rooms, several open computers, and cheap printing services at just 5 cents per blank-and-white page. It also has a reference desk and many librarians and library assistants who can help you find the media and research materials that you need.",
-            'history': "Just two months after UAlbany’s predecessor, the State Normal School at Albany, opened in December 1844, its first library was opened in one room of a former train depot on State Street, with the School receiving its first private donation, a bequest of $300 to purchase library books, at around the same time.",
+            'history': "Just two months after UAlbany's predecessor, the State Normal School at Albany, opened in December 1844, its first library was opened in one room of a former train depot on State Street, with the School receiving its first private donation, a bequest of $300 to purchase library books, at around the same time.",
             'amenities': ['Entertainment Media Collection', 'Textbook and Antique Reference Book Collection', 'Newspaper Microfiche Collection', 'Multimedia Collection and borrowable Technology Collection', 'Reference Desk', 'Several open Computer Stations', 'Black-and-White and Color Printing Stations', 'Silent Studying Areas and borrowable enclosed Group Work Rooms'],
             'hours': [
                 'Monday: 8:30am - 11pm',
@@ -133,7 +133,7 @@ def get_building_info(request, building_slug):
     
         'taconic-building': {
             'title': 'Taconic Building',
-            'mission': "Taconic is home to the University’s Academic Advising Offices. You will go here to meet with you advisors every semester to plan your academic career and classes as an undergraduate student.",
+            'mission': "Taconic is home to the University's Academic Advising Offices. You will go here to meet with you advisors every semester to plan your academic career and classes as an undergraduate student.",
             'history': "Originally called the Education Building, it was first built in 1966.",
             'amenities': ['Important Sub-Locations', 'Academic Advising Offices', 'Small display cases and several bulletin boards displaying the University’s history and achievements, notable works or research done on various subjects, and outstanding student work', 'Comfortable seating areas'],
         },
@@ -154,7 +154,7 @@ def get_building_info(request, building_slug):
 
         'life-sciences-building': {
             'title': 'Life Sciences Building',
-            'mission': "The Life Sciences Building houses the University’s forays into research on RNA science and technology, neuroscience, microbiology, molecular evolution of disease, and molecular and cell biology. Any student looking to pursue a career in Life Sciences will become well acquainted with this building over the course of their academic career here at the University, as this building houses many of the labs, machines, and research facilities that they will be using in their education.",
+            'mission': "The Life Sciences Building houses the University's forays into research on RNA science and technology, neuroscience, microbiology, molecular evolution of disease, and molecular and cell biology. Any student looking to pursue a career in Life Sciences will become well acquainted with this building over the course of their academic career here at the University, as this building houses many of the labs, machines, and research facilities that they will be using in their education.",
             'history': "The Life Sciences Initiative that calls this building home was founded on the philosophy that scientific discovery is a multidisciplinary, collaborative and highly interactive enterprise. Discovery occurs at the frontiers and intersections of science and Life Sciences faculty provide a critical focus for collaborative discovery across traditional departments as well as with other University at Albany and regional scientists.",
             'amenities': ['Molecular Biology Core Facility', 'Tissue Culture Core Facility', 'Structural Chemistry Core Facility', 'RNA Epitranscriptomics and Proteomics Resource (REPR) Facility', 'Biological Research Facility ', 'Laboratory Animal Facility', 'Greenhouse Facility', 'X-Ray Crystallography Facility Core', 'Meeting Rooms, Auditorium, and Conference Facilities', 'RNA Institute'],
         },
@@ -162,7 +162,7 @@ def get_building_info(request, building_slug):
 		'science-library': {
             'title': 'Science Library',
             'mission': "The Science Library will be an important location to anyone pursuing a degree in STEM. It contains hundreds of thousands, if not a million different cataloged scientific resources, in addition to a preservation department dedicated to maintaining current and antique materials, and a special collection of historical manuscripts and other materials gathered in the University’s archives.",
-            'history': "The Science Library was opened in September 1999, to house the University’s scientific resources, in addition to the M. E. Grenander Department of Special Collections & Archives, and the Library Preservation Laboratory. The building now also houses International Programs and the New York State Writers Institute.",
+            'history': "The Science Library was opened in September 1999, to house the University's scientific resources, in addition to the M. E. Grenander Department of Special Collections & Archives, and the Library Preservation Laboratory. The building now also houses International Programs and the New York State Writers Institute.",
             'amenities': ['Several open Computer Stations', 'Silent Studying Areas and borrowable enclosed Group Work Rooms', 'Alice Hastings Murphy Preservation Department and Preserved Material Exhibits', 'Library Storage Facility', 'M.E. Grenander Department of Special Collections & Archives', 'New York State Writers Institute'],
             'hours': [
                 'Monday: 8:30am - 9pm',
@@ -184,4 +184,6 @@ def get_building_info(request, building_slug):
     }
 
     building_info_selected = dict(building_info.get(building_slug, {}))
+    if not building_info_selected:
+        raise Http404("Building not found")
     return render(request, 'articles/article.html', {'building_info': building_info_selected})
