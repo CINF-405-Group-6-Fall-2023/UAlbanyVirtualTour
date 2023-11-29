@@ -1,24 +1,32 @@
 # UAlbany Virtual Tour Campus Map
+Programmed by Akinde Mendoza, Jeremy J. Lam, Joseph A. Zarakas, Othmane Benkhalifa, & Godswill U. Utionkpan, for Professor Kimberly Cornell's Fall 2023 CINF 405 class.
+# Setup Instructions
 
-*Programmed by Akinde Mendoza, Jeremy J. Lam, Joseph A. Zarakas, Othmane Benkhalifa, & Godswill U. Utionkpan, for Professor Kimberly Cornell's Fall 2023 CINF 405 class*
+## Prerequisites
 
-## Overview
+Ensure you have Python 3.9 or later installed on your system. If not, follow the instructions below to install Python and Git.
 
-The UAlbany Virtual Tour Campus Map is a Django-based web application that provides an interactive map for exploring the University at Albany's campus virtually. This project is part of a class assignment to create an engaging and informative tool for navigating the university's various locations.
+### Install Python (if not already installed)
+
+1. Visit the official Python website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Download the latest version of Python 3 for your operating system.
+3. Follow the installation instructions for your operating system.
+
+### Install Git for (if Python is not installed)
+
+1. Visit the official Git website(Windows): [https://gitforwindows.org/](https://gitforwindows.org/)
+3. Download the latest version of Git for your platform.
+4. Follow the installation instructions for your operating system.
 
 ## Project Setup
 
-### Prerequisites
-
-Ensure you have Python 3 installed on your system.
-
-### Setup Instructions
-
-1. Clone the repository:
+1. Clone the private repository using SSH:
 
     ```bash
-    git clone https://github.com/your-username/UAlbanyVirtualTour.git
+    git clone git@github.com:your-username/UAlbanyVirtualTour.git
     ```
+
+    Replace `your-username` with your actual GitHub username.
 
 2. Navigate to the project directory:
 
@@ -34,12 +42,6 @@ Ensure you have Python 3 installed on your system.
 
     This script will check for and install the required dependencies, create and activate a virtual environment, and set up the Django project.
 
-4. Start the Django development server:
-
-    ```bash
-    python manage.py runserver
-    ```
-
     The virtual tour map will be accessible at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
 ## Project Structure
@@ -48,9 +50,6 @@ Ensure you have Python 3 installed on your system.
 - **venv/**: Virtual environment directory.
 - **requirements.txt**: List of Python packages required for the project.
 
-## Contributing
-
-If you'd like to contribute to the development of the UAlbany Virtual Tour Campus Map, feel free to fork the repository and submit a pull request.
 
 ## License
 
