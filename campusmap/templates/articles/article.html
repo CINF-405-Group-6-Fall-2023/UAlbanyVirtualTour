@@ -49,12 +49,22 @@
                         {% if building_info.additional_info %}
                             <h3>Additional Information</h3>
                             <ul id="additional_info">
-                                {% for infor in building_info.additional_info %}
+                                {% for info in building_info.additional_info %}
                                     <li>{{ info }}</li>
                                 {% endfor %}
                             </ul>
                         {% endif %}
-                    </section>
+                        {% if building_info.enroll %}
+                            <section class="enroll">
+                                <h4>Enroll Now!</h4>
+                                <ul id="enroll">
+                                    {% for enrollLink in building_info.enroll %}
+                                        <li><a href="{{ enrollLink.link }}" title="{{ enrollLink.name }}">{{ enrollLink.name }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </section>
+                        {% endif %}
+                        </section>
 
                     {% if building_info.amenities %}
                         <section class="amenities">
