@@ -40,7 +40,11 @@
                         {% endif %}
                         {% if building_info.leadership %}
                             <h3>Leadership</h3>
-                            <p>{{ building_info.leadership }}</p>
+                            <ul id="leadership">
+                                {% for leader in building_info.leadership %}
+                                    <li>{{ leader }}</li>
+                                {% endfor %}
+                            </ul>
                         {% endif %}
                     </section>
 
