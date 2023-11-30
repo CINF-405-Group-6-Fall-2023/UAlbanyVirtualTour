@@ -46,6 +46,14 @@
                                 {% endfor %}
                             </ul>
                         {% endif %}
+                        {% if building_info.additional_info %}
+                            <h3>Additional Information</h3>
+                            <ul id="additional_info">
+                                {% for infor in building_info.additional_info %}
+                                    <li>{{ info }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
                     </section>
 
                     {% if building_info.amenities %}
