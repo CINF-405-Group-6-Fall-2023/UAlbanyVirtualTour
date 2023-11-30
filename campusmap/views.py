@@ -205,7 +205,9 @@ def get_building_info(request, building_slug):
             'additional_info': [
 		'COSTS 2022-2023: NYS Resident Tuition: $7,070 || Out-of-State Tuition: $24,910 || Room, Board & Fees: $18,895',
                 'ENROLLMENT: 12,654 undergraduates || 4,421 graduate students || 2,800 new first-years || 1,300 new transfers',
-                'Enroll as a First Year Student: https://www.albany.edu/admissions/how-apply-first-year-student',
+	    ],
+	    'enroll': 
+		{'name': 'Enroll as a First Year Student', 'link': 'https://www.albany.edu/admissions/how-apply-first-year-student/'},
                 {'name': 'Transfer Student', 'link': 'https://www.albany.edu/admissions/how-apply-transfer-student/'},
                 {'name': 'Scholarships & Aid', 'link': 'https://www.albany.edu/admissions/scholarships-aid/'},
             ],
