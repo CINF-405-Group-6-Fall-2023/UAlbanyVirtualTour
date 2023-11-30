@@ -19,9 +19,9 @@ def get_building_info(request, building_slug):
         
         'campus-center': {
             'title': 'Campus Center',
-            'mission': "The Campus Center provides a convenient place...",
-            'ideals': "We value diversity, inclusion, sustainability...",
-            'vision': "Be the nexus of collaboration, connection, and service...",
+            'mission': "The Campus Center provides a convenient place for a diverse community to socialize, collaborate, get involved, experience events, enhance the quality of student life and contribute to the University’s co-curricular and educational mission.",
+            'ideals': "We value diversity, inclusion, sustainability, student involvement, and community engagement.",
+            'vision': "Be the nexus of collaboration, connection, and service; enriching the experience of the entire University at Albany community and beyond.",
             'amenities': ['Auditorium', 'Dining', 'AcaDamien\'s Bookstore', 'Financial Aid/Dean/Registrar Office', 'Banking', 'Lounging Area', 'Wireless Internet'],
             'hours': [
                 'Monday: 7:30 a.m. to 11 p.m.',
@@ -33,6 +33,58 @@ def get_building_info(request, building_slug):
                 'Sunday: 10 a.m. to 11 p.m.',
             ],
         },
+
+	'massry-center': {
+		'title': 'Massry Center for Business',
+		'school-of-business': "We provide high quality business education and advance knowledge through scholarly and applied research, and by engaging effectively with alumni and the business and academic communities. We also offer innovative and distinctive niche programs and experiential learning opportunities, in collaboration with campus and corporate partners. These programs provide our students with a competitive edge in the job market. With the school’s strong pipelines to the business community the majority of our students are placed in jobs before graduation and have access to top executives in leading firms. School of Business alumni become a powerful network of leaders truly shaping the business world.",
+		'mission': "Nurture sophisticated, ethical, globally oriented leaders for a digital economy. We will accomplish this by providing rigorous business education, advancing knowledge through scholarly and applied research, and engaging alumni and the business community. We will offer innovative programs that make our students technologically adept and provide them a competitive edge.",
+		'vision': "Enhance our standing as an innovative, research-oriented, diverse business school that provides experiential learning for our students and professional development for our students, staff, and faculty.",
+		'identity': "From opportunity to impact: We should serve as a gateway to opportunities for our students, staff, and faculty so that they can have a positive impact on their professions and communities.",
+		'leadership': [
+			'Dr. Kevin J. Williams Interim Dean', 
+			'Janet Marler Associate Dean and Professor', 
+			'William Wales Associate Dean for Research and Standish Professor of Entrepreneurship and Chair, Management', 
+			'Tara Curley Vice Dean, Finance and Administrative Operations', 
+			'Ann Hughes Director of Development',
+		],
+		'hours_contact': {
+                'building_access': [
+                    'On-Site: Monday - Friday, 9 a.m. to 5 p.m.',
+                ],
+                'contact_info': [
+                    'main_office': "518-956-8320',
+                    'address': 'The Massry Center for Business PAC 266 1400 Washington Avenue Albany, NY 12222',
+		],
+	    },
+	}
+
+	'university-hall-admissions': {
+	    'title': 'University Hall Admissions',
+	    'mission': " We know there’s greatness already in you – it’s been there all along. Our offer to you is a simple one: let us help you be the best you. To get you to see what we see — a blazing potential that’s ready to be unleashed.",
+	    'info': [
+		'UAlbany is one of only 146 Research 1 institutions in the nation. UAlbany's students and faculty represent more than 100 nations. UAlbany is one of only 290 institutions with a chapter of Phi Beta Kappa.',
+     		'9 Schools & Colleges || 1200 World-Class Faculty || 170+ Research Labs & Centers || 300+ Student Clubs || 18:1 Student-Faculty Ratio || 19 NCAA Division I Athletic Teams',
+       		'COSTS 2022-2023: NYS Resident Tuition: $7,070 || Out-of-State Tuition: $24,910 || Room, Board & Fees: $18,895',
+	 	'ENROLLMENT: 12,654 undergraduates || 4,421 graduate students || 2,800 new first-years || 1,300 new transfers', 
+   		],
+	    'apply': [
+		    {'name': 'First Year Student', 'link': 'https://www.albany.edu/admissions/how-apply-first-year-student/'},
+		    {'name': 'Transfer Student', 'link': 'https://www.albany.edu/admissions/how-apply-transfer-student/'},
+		    {'name': 'Scholarships & Aid', 'link': 'https://www.albany.edu/admissions/scholarships-aid/'},
+	    ],
+	    'access_hours_contact': {
+                'building_access': [
+                    'Appointments: 9 a.m. to 5 p.m. Monday to Friday',
+                    'Phones: 9 a.m. to 4 p.m. Monday to Friday',
+                ],
+                'contact_info': [
+                    'main_office': '518-442-5435',
+                    'fax': '518-437-3617',
+                    'email': 'ugadmissions@albany.edu',
+                    'address': 'University Hall 112 1400 Washington Avenue Albany, NY 12222',
+		],
+	    },
+    },
 
         'university-library': {
             'title': 'University Library',
