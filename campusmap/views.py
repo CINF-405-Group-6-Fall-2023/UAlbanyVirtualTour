@@ -226,7 +226,7 @@ def get_building_info(request, building_slug):
             },
         },
 
-	'Colonial-Quad': {
+	'colonial-quad': {
             'title': 'Colonial Quad',
             'mission': "Colonial Quad is a sophomore year living space on campus. It is closest to Collins Circle and Mail Services.",
 	    'access_hours_contact': {
@@ -237,7 +237,7 @@ def get_building_info(request, building_slug):
             'quad_dorms': ['Hamilton Hall', 'Herkimer Hall', 'Johnson Hall', 'Livingston Tower', 'Paine Hall', 'Zenger Hall', 'Morris Hall', 'Delancey Hall', 'Clinton Hall'],
         },
 	    
-	'Dutch-Quad': {
+	'dutch-quad': {
             'title': 'Dutch Quad',
             'mission': "Dutch Quad is a sophomore year living space on campus. It is closest to the Campus Center and Broadview.",
 	    'access_hours_contact': {
@@ -248,7 +248,7 @@ def get_building_info(request, building_slug):
             'quad_dorms': ['Ten Eyck Hall', 'Ten Broeck Hall', 'Van Rensselaer Hall', 'Stuyvesant Tower', 'Ryckman Hall', 'Bleeker Hall', 'Beverwyck Hall', 'Van Cortlandt Hall', 'Schuyler Hall'],
         },
 
-	'Indigenous-Quad': {
+	'indigenous-quad': {
             'title': 'Indigenous Quad',
             'mission': "Indigenous Quad is a freshman year living space on campus. It is closest to the Campus Center and Broadview.", 
 	    'access_hours_contact': {
@@ -259,7 +259,7 @@ def get_building_info(request, building_slug):
             'quad_dorms': ['Cayuga Hall', 'Adirondack Hall', 'Oneida Hall', 'Mohawk Tower', 'Onondaga Hall', 'Mahican Hall', 'Montauk Hall', 'Seneca Hall', 'Tuscarora Hall'],
         },
 	    
-	'State-Quad': {
+	'state-quad': {
             'title': 'State Quad',
             'mission': "State Quad is a freshman year living space on campus. It is closest to Collins Circle and Mail Services.",
 	    'access_hours_contact': {
@@ -270,7 +270,7 @@ def get_building_info(request, building_slug):
             'quad_dorms': ['Irving Hall', 'Fulton Hall', 'Whitman Hall', 'Eastman Tower', 'Tappan Hall', 'Cooper Hall', 'Steinmetz Hall', 'Anthony Hall', 'Melville Hall'],
         },
 
-	'Empire-Commons': {
+	'empire-commons': {
             'title': 'Empire Commons',
             'mission': "Empire Commons is an upperclassman apartment-style living space on campus. It is closest to Collins Circle and the main campus buildings.",
 	    'access_hours_contact': {
@@ -281,7 +281,7 @@ def get_building_info(request, building_slug):
             'amenities': ['Single Bedrooms', 'Fully furnished living rooms', 'Fully Equipped Kitchens', 'Apartment Laundry Room', 'Utilities', 'Outdoor Courts', 'Gym', 'Community Building', 'Parking'],
         },
 
-	'Liberty-Terrace': {
+	'liberty-terrace': {
             'title': 'Liberty Terrace',
             'mission': "Liberty Terrace is an upperclassman apartment-style living space on campus. It is closest to Broadview Center and Guilderland.",
 	    'access_hours_contact': {
@@ -292,7 +292,7 @@ def get_building_info(request, building_slug):
             'amenities': ['Single Bedrooms', 'Fully furnished living rooms', 'Fully Equipped Kitchens', 'Elevators', 'Utilities', 'Softball Field', 'Gym', 'Community Area', 'Parking'],
         },
 	    
-	'Freedom-Apartments': {
+	'freedom-apartments': {
             'title': 'Freedom Apartments',
             'mission': "Freedom Apartments is an upperclassman apartment-style living space on campus. It is closest to Stuyvesant Plaza and the Albany Nanotech Complex.",
 	    'access_hours_contact': {
