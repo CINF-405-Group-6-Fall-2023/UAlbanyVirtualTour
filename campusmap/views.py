@@ -16,7 +16,56 @@ def get_building_info(request, building_slug):
             'history': "The Lecture Center was first built in 1969, and has undergone many changes and renovations since then, with the replacement of old electrical, plumbing, and ventilation systems and lighting and carpet, and the addition of new audio-visual systems continuing up through 2023, in the University’s efforts to make the campus, safer, more accessible, and on top of modern trends in technology.",
             'amenities': ['25 Different Lecture Halls, Auditoriums, and Computer Rooms', 'In-Door Seating', 'Outdoor Fountain with additional seating and tables', 'Financial Aid/Dean/Registrar Office', 'Argo Tea Shop', 'Connected pathways to the basement levels of every surrounding class building'],
         },
-        
+	    
+	'Colonial-Quad': {
+            'title': 'Colonial Quad',
+            'description': "Colonial Quad is a sophomore year living space on campus. It is closest to Collins Circle and Mail Services.",
+            'Phone Number': "518-442-5911",
+            'spaces': ['Hamilton Hall', 'Herkimer Hall', 'Johnson Hall', 'Livingston Tower', 'Paine Hall', 'Zenger Hall', 'Morris Hall', 'Delancey Hall', 'Clinton Hall'],
+        },
+	    
+	'Dutch-Quad': {
+            'title': 'Dutch Quad',
+            'mission': "Dutch Quad is a sophomore year living space on campus. It is closest to the Campus Center and Broadview.",
+            'Phone Number': "518-442-5900",
+            'spaces': ['Ten Eyck Hall', 'Ten Broeck Hall', 'Van Rensselaer Hall', 'Stuyvesant Tower', 'Ryckman Hall', 'Bleeker Hall', 'Beverwyck Hall', 'Van Cortlandt Hall', 'Schuyler Hall'],
+        },
+
+	'Indigenous-Quad': {
+            'title': 'Indigenous Quad',
+            'mission': "Indigenous Quad is a freshman year living space on campus. It is closest to the Campus Center and Broadview.",
+            'Phone Number': "518-442-5940",
+            'spaces': ['Cayuga Hall', 'Adirondack Hall', 'Oneida Hall', 'Mohawk Tower', 'Onondaga Hall', 'Mahican Hall', 'Montauk Hall', 'Seneca Hall', 'Tuscarora Hall'],
+        },
+	    
+	'State-Quad': {
+            'title': 'State Quad',
+            'mission': "State Quad is a freshman year living space on campus. It is closest to Collins Circle and Mail Services.",
+            'Phone Number': "518-442-5920",
+            'spaces': ['Irving Hall', 'Fulton Hall', 'Whitman Hall', 'Eastman Tower', 'Tappan Hall', 'Cooper Hall', 'Steinmetz Hall', 'Anthony Hall', 'Melville Hall'],
+        },
+
+	'Empire-Commons': {
+            'title': 'Empire Commons',
+            'mission': "Empire Commons is an upperclassman apartment-style living space on campus. It is closest to Collins Circle and the main campus buildings.",
+            'Phone Number': "518-956-6250",
+            'amenities': ['Single Bedrooms', 'Fully furnished living rooms', 'Fully Equipped Kitchens', 'Apartment Laundry Room', 'Utilities', 'Outdoor Courts', 'Gym', 'Community Building', 'Parking'],
+        },
+
+	'Liberty-Terrace': {
+            'title': 'Liberty Terrace',
+            'mission': "Liberty Terrace is an upperclassman apartment-style living space on campus. It is closest to Broadview Center and Guilderland.",
+            'Phone Number': "518-956-8300",
+            'amenities': ['Single Bedrooms', 'Fully furnished living rooms', 'Fully Equipped Kitchens', 'Elevators', 'Utilities', 'Softball Field', 'Gym', 'Community Area', 'Parking'],
+        },
+	    
+	'Freedom-Apartments': {
+            'title': 'Freedom Apartments',
+            'mission': "Freedom Apartments is an upperclassman apartment-style living space on campus. It is closest to Stuyvesant Plaza and the Albany Nanotech Complex.",
+            'Phone Number': "518-442-5830",
+            'amenities': ['Double Bedrooms', 'Fully furnished living rooms', 'Fully Equipped Kitchens', 'Accessibility', 'Utilities', 'Patio', 'Gender Inclusive Housing', 'Shuttle Bus Stop', 'Parking'],
+        },
+
         'campus-center': {
             'title': 'Campus Center',
             'mission': "The Campus Center provides a convenient place for a diverse community to socialize, collaborate, get involved, experience events, enhance the quality of student life and contribute to the University’s co-curricular and educational mission.",
