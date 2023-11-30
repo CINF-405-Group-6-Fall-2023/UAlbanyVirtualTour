@@ -15,56 +15,7 @@ def get_building_info(request, building_slug):
             'mission': "The Lecture Center, as its name states, is where you'll go to see many of your lectures. It holds 25 different large halls, auditoriums, and computer rooms that can seat upwards of 50, if not 100, students each, and lessons on a wide variety of subjects will take place there.",
             'history': "The Lecture Center was first built in 1969, and has undergone many changes and renovations since then, with the replacement of old electrical, plumbing, and ventilation systems and lighting and carpet, and the addition of new audio-visual systems continuing up through 2023, in the University’s efforts to make the campus, safer, more accessible, and on top of modern trends in technology.",
             'amenities': ['25 Different Lecture Halls, Auditoriums, and Computer Rooms', 'In-Door Seating', 'Outdoor Fountain with additional seating and tables', 'Financial Aid/Dean/Registrar Office', 'Argo Tea Shop', 'Connected pathways to the basement levels of every surrounding class building'],
-        },
-	    
-	'Colonial-Quad': {
-            'title': 'Colonial Quad',
-            'description': "Colonial Quad is a sophomore year living space on campus. It is closest to Collins Circle and Mail Services.",
-            'Phone Number': "518-442-5911",
-            'spaces': ['Hamilton Hall', 'Herkimer Hall', 'Johnson Hall', 'Livingston Tower', 'Paine Hall', 'Zenger Hall', 'Morris Hall', 'Delancey Hall', 'Clinton Hall'],
-        },
-	    
-	'Dutch-Quad': {
-            'title': 'Dutch Quad',
-            'mission': "Dutch Quad is a sophomore year living space on campus. It is closest to the Campus Center and Broadview.",
-            'Phone Number': "518-442-5900",
-            'spaces': ['Ten Eyck Hall', 'Ten Broeck Hall', 'Van Rensselaer Hall', 'Stuyvesant Tower', 'Ryckman Hall', 'Bleeker Hall', 'Beverwyck Hall', 'Van Cortlandt Hall', 'Schuyler Hall'],
-        },
-
-	'Indigenous-Quad': {
-            'title': 'Indigenous Quad',
-            'mission': "Indigenous Quad is a freshman year living space on campus. It is closest to the Campus Center and Broadview.",
-            'Phone Number': "518-442-5940",
-            'spaces': ['Cayuga Hall', 'Adirondack Hall', 'Oneida Hall', 'Mohawk Tower', 'Onondaga Hall', 'Mahican Hall', 'Montauk Hall', 'Seneca Hall', 'Tuscarora Hall'],
-        },
-	    
-	'State-Quad': {
-            'title': 'State Quad',
-            'mission': "State Quad is a freshman year living space on campus. It is closest to Collins Circle and Mail Services.",
-            'Phone Number': "518-442-5920",
-            'spaces': ['Irving Hall', 'Fulton Hall', 'Whitman Hall', 'Eastman Tower', 'Tappan Hall', 'Cooper Hall', 'Steinmetz Hall', 'Anthony Hall', 'Melville Hall'],
-        },
-
-	'Empire-Commons': {
-            'title': 'Empire Commons',
-            'mission': "Empire Commons is an upperclassman apartment-style living space on campus. It is closest to Collins Circle and the main campus buildings.",
-            'Phone Number': "518-956-6250",
-            'amenities': ['Single Bedrooms', 'Fully furnished living rooms', 'Fully Equipped Kitchens', 'Apartment Laundry Room', 'Utilities', 'Outdoor Courts', 'Gym', 'Community Building', 'Parking'],
-        },
-
-	'Liberty-Terrace': {
-            'title': 'Liberty Terrace',
-            'mission': "Liberty Terrace is an upperclassman apartment-style living space on campus. It is closest to Broadview Center and Guilderland.",
-            'Phone Number': "518-956-8300",
-            'amenities': ['Single Bedrooms', 'Fully furnished living rooms', 'Fully Equipped Kitchens', 'Elevators', 'Utilities', 'Softball Field', 'Gym', 'Community Area', 'Parking'],
-        },
-	    
-	'Freedom-Apartments': {
-            'title': 'Freedom Apartments',
-            'mission': "Freedom Apartments is an upperclassman apartment-style living space on campus. It is closest to Stuyvesant Plaza and the Albany Nanotech Complex.",
-            'Phone Number': "518-442-5830",
-            'amenities': ['Double Bedrooms', 'Fully furnished living rooms', 'Fully Equipped Kitchens', 'Accessibility', 'Utilities', 'Patio', 'Gender Inclusive Housing', 'Shuttle Bus Stop', 'Parking'],
-        },
+        },    
 
         'campus-center': {
             'title': 'Campus Center',
@@ -82,59 +33,7 @@ def get_building_info(request, building_slug):
                 'Sunday: 10 a.m. to 11 p.m.',
             ],
         },
-
-        'massry-center': {
-            'title': 'Massry Center for Business',
-            'school-of-business': "We provide high-quality business education and advance knowledge through scholarly and applied research, and by engaging effectively with alumni and the business and academic communities. We also offer innovative and distinctive niche programs and experiential learning opportunities, in collaboration with campus and corporate partners. These programs provide our students with a competitive edge in the job market. With the school’s strong pipelines to the business community, the majority of our students are placed in jobs before graduation and have access to top executives in leading firms. School of Business alumni become a powerful network of leaders truly shaping the business world.",
-            'mission': "Nurture sophisticated, ethical, globally-oriented leaders for a digital economy. We will accomplish this by providing rigorous business education, advancing knowledge through scholarly and applied research, and engaging alumni and the business community. We will offer innovative programs that make our students technologically adept and provide them a competitive edge.",
-            'vision': "Enhance our standing as an innovative, research-oriented, diverse business school that provides experiential learning for our students and professional development for our students, staff, and faculty.",
-            'identity': "From opportunity to impact: We should serve as a gateway to opportunities for our students, staff, and faculty so that they can have a positive impact on their professions and communities.",
-            'leadership': [
-                'Dr. Kevin J. Williams Interim Dean',
-                'Janet Marler Associate Dean and Professor',
-                'William Wales Associate Dean for Research and Standish Professor of Entrepreneurship and Chair, Management',
-                'Tara Curley Vice Dean, Finance and Administrative Operations',
-                'Ann Hughes Director of Development',
-            ],
-            'hours_contact': {
-                'building_access': [
-                    'On-Site: Monday - Friday, 9 a.m. to 5 p.m.',
-                ],
-                'contact_info': {
-                'main_office': '518-956-8320',
-                'address': 'The Massry Center for Business PAC 266 1400 Washington Avenue Albany, NY 12222',
-                },
-            },
-        },
-
-        'university-hall-admissions': {
-            'title': 'University Hall Admissions',
-            'mission': " We know there's greatness already in you - it's been there all along. Our offer to you is a simple one: let us help you be the best you. To get you to see what we see — a blazing potential thats ready to be unleashed.",
-            'info': [
-                'UAlbany is one of only 146 Research 1 institutions in the nation. UAlbany\'s students and faculty represent more than 100 nations. UAlbany is one of only 290 institutions with a chapter of Phi Beta Kappa.',
-                '9 Schools & Colleges || 1200 World-Class Faculty || 170+ Research Labs & Centers || 300+ Student Clubs || 18:1 Student-Faculty Ratio || 19 NCAA Division I Athletic Teams',
-                'COSTS 2022-2023: NYS Resident Tuition: $7,070 || Out-of-State Tuition: $24,910 || Room, Board & Fees: $18,895',
-                'ENROLLMENT: 12,654 undergraduates || 4,421 graduate students || 2,800 new first-years || 1,300 new transfers',
-            ],
-            'apply': [
-                {'name': 'First Year Student', 'link': 'https://www.albany.edu/admissions/how-apply-first-year-student/'},
-                {'name': 'Transfer Student', 'link': 'https://www.albany.edu/admissions/how-apply-transfer-student/'},
-                {'name': 'Scholarships & Aid', 'link': 'https://www.albany.edu/admissions/scholarships-aid/'},
-            ],
-            'access_hours_contact': {
-                'building_access': [
-                    'Appointments: 9 a.m. to 5 p.m. Monday to Friday',
-                    'Phones: 9 a.m. to 4 p.m. Monday to Friday',
-                ],
-                'contact_info': {
-                    'main_office': '518-442-5435',
-                    'fax': '518-437-3617',
-                    'email': 'ugadmissions@albany.edu',
-                    'address': 'University Hall 112 1400 Washington Avenue Albany, NY 12222',
-                },
-            },
-        },
-
+        
         'university-library': {
             'title': 'University Library',
             'mission': "The University Library will be a major part of your academic career here at UAlbany! Not only does it offer both borrowable physical academic and entertainment media, it also offers free access to several online databases of peer-reviewed articles and journals, study rooms, several open computers, and cheap printing services at just 5 cents per blank-and-white page. It also has a reference desk and many librarians and library assistants who can help you find the media and research materials that you need.",
@@ -260,7 +159,7 @@ def get_building_info(request, building_slug):
             'amenities': ['Molecular Biology Core Facility', 'Tissue Culture Core Facility', 'Structural Chemistry Core Facility', 'RNA Epitranscriptomics and Proteomics Resource (REPR) Facility', 'Biological Research Facility ', 'Laboratory Animal Facility', 'Greenhouse Facility', 'X-Ray Crystallography Facility Core', 'Meeting Rooms, Auditorium, and Conference Facilities', 'RNA Institute'],
         },
 	
-		'science-library': {
+	'science-library': {
             'title': 'Science Library',
             'mission': "The Science Library will be an important location to anyone pursuing a degree in STEM. It contains hundreds of thousands, if not a million different cataloged scientific resources, in addition to a preservation department dedicated to maintaining current and antique materials, and a special collection of historical manuscripts and other materials gathered in the University’s archives.",
             'history': "The Science Library was opened in September 1999, to house the University's scientific resources, in addition to the M. E. Grenander Department of Special Collections & Archives, and the Library Preservation Laboratory. The building now also houses International Programs and the New York State Writers Institute.",
@@ -275,8 +174,137 @@ def get_building_info(request, building_slug):
                 'Sunday: Closed',
             ],
         },
+
+	'massry-center': {
+            'title': 'Massry Center for Business',
+            'mission': "The Massry center is a school for business, providing high-quality education and advanced knowledge through scholarly and applied research, and engaging effectively with alumni and the business and academic communities. It also offers innovative and distinctive niche programs and experiential learning opportunities, in collaboration with campus and corporate partners. These programs provide our students with a competitive edge in the job market. With the school’s strong pipelines to the business community, the majority of our students are placed in jobs before graduation and have access to top executives in leading firms. School of Business alumni become a powerful network of leaders truly shaping the business world.",
+            'ideals': "The Massry aims to nuture sophisticated, ethical, globally-oriented leaders for a digital economy. It will accomplish this by providing rigorous business education, advancing knowledge through scholarly and applied research, and engaging alumni and the business community. It will offer innovative programs that make students technologically adept and provide them a competitive edge. From opportunity to impact: It will serve as a gateway to opportunities for students, staff, and faculty so that they can have a positive impact on their professions and communities.",
+            'vision': "Enhance the Center's standing as an innovative, research-oriented, diverse business school that provides experiential learning for our students and professional development for our students, staff, and faculty.",
+            'leadership': [
+                'Dr. Kevin J. Williams Interim Dean',
+                'Janet Marler Associate Dean and Professor',
+                'William Wales Associate Dean for Research and Standish Professor of Entrepreneurship and Chair, Management',
+                'Tara Curley Vice Dean, Finance and Administrative Operations',
+                'Ann Hughes Director of Development',
+            ],
+            'access_hours_contact': {
+                'building_access': [
+                    'On-Site: Monday - Friday, 9 a.m. to 5 p.m.',
+                ],
+                'contact_info': {
+	            'main_office': '518-956-8320',
+	            'address': 'The Massry Center for Business PAC 266 1400 Washington Avenue Albany, NY 12222',
+                },
+            },
+        },
+
+        'university-hall-admissions': {
+            'title': 'University Hall Admissions',
+            'mission': "We know there's greatness already in you - it's been there all along. Our offer to you is a simple one: let us help you be the best you. To get you to see what we see — a blazing potential thats ready to be unleashed.",
+            'info': [
+                'UAlbany is one of only 146 Research 1 institutions in the nation. UAlbany\'s students and faculty represent more than 100 nations. UAlbany is one of only 290 institutions with a chapter of Phi Beta Kappa.',
+                '9 Schools & Colleges || 1200 World-Class Faculty || 170+ Research Labs & Centers || 300+ Student Clubs || 18:1 Student-Faculty Ratio || 19 NCAA Division I Athletic Teams',
+                'COSTS 2022-2023: NYS Resident Tuition: $7,070 || Out-of-State Tuition: $24,910 || Room, Board & Fees: $18,895',
+                'ENROLLMENT: 12,654 undergraduates || 4,421 graduate students || 2,800 new first-years || 1,300 new transfers',
+            ],
+            'apply': [
+                {'name': 'First Year Student', 'link': 'https://www.albany.edu/admissions/how-apply-first-year-student/'},
+                {'name': 'Transfer Student', 'link': 'https://www.albany.edu/admissions/how-apply-transfer-student/'},
+                {'name': 'Scholarships & Aid', 'link': 'https://www.albany.edu/admissions/scholarships-aid/'},
+            ],
+            'access_hours_contact': {
+                'building_access': [
+                    'Appointments: 9 a.m. to 5 p.m. Monday to Friday',
+                    'Phones: 9 a.m. to 4 p.m. Monday to Friday',
+                ],
+                'contact_info': {
+                    'main_office': '518-442-5435',
+                    'fax': '518-437-3617',
+                    'email': 'ugadmissions@albany.edu',
+                    'address': 'University Hall 112 1400 Washington Avenue Albany, NY 12222',
+                },
+            },
+        },
+
+	'Colonial-Quad': {
+            'title': 'Colonial Quad',
+            'mission': "Colonial Quad is a sophomore year living space on campus. It is closest to Collins Circle and Mail Services.",
+	    'access_hours_contact': {
+                'contact_info': {
+                    'Phone Number': "518-442-5911",
+                },
+            },
+            'quad_dorms': ['Hamilton Hall', 'Herkimer Hall', 'Johnson Hall', 'Livingston Tower', 'Paine Hall', 'Zenger Hall', 'Morris Hall', 'Delancey Hall', 'Clinton Hall'],
+        },
+	    
+	'Dutch-Quad': {
+            'title': 'Dutch Quad',
+            'mission': "Dutch Quad is a sophomore year living space on campus. It is closest to the Campus Center and Broadview.",
+	    'access_hours_contact': {
+                'contact_info': {
+                    'Phone Number': "518-442-5900",
+                },
+            },
+            'quad_dorms': ['Ten Eyck Hall', 'Ten Broeck Hall', 'Van Rensselaer Hall', 'Stuyvesant Tower', 'Ryckman Hall', 'Bleeker Hall', 'Beverwyck Hall', 'Van Cortlandt Hall', 'Schuyler Hall'],
+        },
+
+	'Indigenous-Quad': {
+            'title': 'Indigenous Quad',
+            'mission': "Indigenous Quad is a freshman year living space on campus. It is closest to the Campus Center and Broadview.", 
+	    'access_hours_contact': {
+                'contact_info': {
+                    'Phone Number': "518-442-5940",
+                },
+            },
+            'quad_dorms': ['Cayuga Hall', 'Adirondack Hall', 'Oneida Hall', 'Mohawk Tower', 'Onondaga Hall', 'Mahican Hall', 'Montauk Hall', 'Seneca Hall', 'Tuscarora Hall'],
+        },
+	    
+	'State-Quad': {
+            'title': 'State Quad',
+            'mission': "State Quad is a freshman year living space on campus. It is closest to Collins Circle and Mail Services.",
+	    'access_hours_contact': {
+                'contact_info': {
+                    'Phone Number': "518-442-5920",
+                },
+            },
+            'quad_dorms': ['Irving Hall', 'Fulton Hall', 'Whitman Hall', 'Eastman Tower', 'Tappan Hall', 'Cooper Hall', 'Steinmetz Hall', 'Anthony Hall', 'Melville Hall'],
+        },
+
+	'Empire-Commons': {
+            'title': 'Empire Commons',
+            'mission': "Empire Commons is an upperclassman apartment-style living space on campus. It is closest to Collins Circle and the main campus buildings.",
+	    'access_hours_contact': {
+                'contact_info': {
+                    'Phone Number': "518-956-6250",
+                },
+            },
+            'amenities': ['Single Bedrooms', 'Fully furnished living rooms', 'Fully Equipped Kitchens', 'Apartment Laundry Room', 'Utilities', 'Outdoor Courts', 'Gym', 'Community Building', 'Parking'],
+        },
+
+	'Liberty-Terrace': {
+            'title': 'Liberty Terrace',
+            'mission': "Liberty Terrace is an upperclassman apartment-style living space on campus. It is closest to Broadview Center and Guilderland.",
+	    'access_hours_contact': {
+                'contact_info': {
+                    'Phone Number': "518-956-8300",
+                },
+            },
+            'amenities': ['Single Bedrooms', 'Fully furnished living rooms', 'Fully Equipped Kitchens', 'Elevators', 'Utilities', 'Softball Field', 'Gym', 'Community Area', 'Parking'],
+        },
+	    
+	'Freedom-Apartments': {
+            'title': 'Freedom Apartments',
+            'mission': "Freedom Apartments is an upperclassman apartment-style living space on campus. It is closest to Stuyvesant Plaza and the Albany Nanotech Complex.",
+	    'access_hours_contact': {
+                'contact_info': {
+                    'Phone Number': "518-442-5830",
+                },
+            },
+            'amenities': ['Double Bedrooms', 'Fully furnished living rooms', 'Fully Equipped Kitchens', 'Accessibility', 'Utilities', 'Patio', 'Gender Inclusive Housing', 'Shuttle Bus Stop', 'Parking'],
+        },
+
 		
-		'boor-sculpture-studio': {
+	'boor-sculpture-studio': {
             'title': 'Boor Sculpture Studio',
             'mission': "If the Fine Arts Building is where you can further your education in 2-dimensional and digital art, then the Boor Sculpture Studio is where you will learn about several disciplines in 3-dimensional art. Inside the building, you will find tools, machines, and rooms dedicated to woodwork, welding, spray-painting, plasterwork, and all sorts of other crafts skills.",
             'history': "After the death of her husband in 1978, Terri Boor was inspired to further her art education at UAlbany and to make a generous donation towards the construction of the Studio, which now bears her name. The Studio celebrated its 20th Anniversary in 2022.",
