@@ -52,7 +52,7 @@ def get_building_info(request, building_slug):
                     'On-Site: Monday - Friday, 9 a.m. to 5 p.m.',
                 ],
                 'contact_info': [
-                    'main_office': "518-956-8320',
+                    'main_office': '518-956-8320',
                     'address': 'The Massry Center for Business PAC 266 1400 Washington Avenue Albany, NY 12222',
 		],
 	    },
