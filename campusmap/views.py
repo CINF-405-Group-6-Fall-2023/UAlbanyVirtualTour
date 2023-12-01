@@ -179,7 +179,7 @@ def get_building_info(request, building_slug):
             'title': 'Massry Center for Business',
             'mission': "The Massry center is a school for business, providing high-quality education and advanced knowledge through scholarly and applied research, and engaging effectively with alumni and the business and academic communities. It also offers innovative and distinctive niche programs and experiential learning opportunities, in collaboration with campus and corporate partners. These programs provide our students with a competitive edge in the job market. With the school’s strong pipelines to the business community, the majority of our students are placed in jobs before graduation and have access to top executives in leading firms. School of Business alumni become a powerful network of leaders truly shaping the business world.",
             'ideals': "The Massry aims to nuture sophisticated, ethical, globally-oriented leaders for a digital economy. It will accomplish this by providing rigorous business education, advancing knowledge through scholarly and applied research, and engaging alumni and the business community. It will offer innovative programs that make students technologically adept and provide them a competitive edge. From opportunity to impact: It will serve as a gateway to opportunities for students, staff, and faculty so that they can have a positive impact on their professions and communities.",
-            'vision': "Enhance the Center's standing as an innovative, research-oriented, diverse business school that provides experiential learning for our students and professional development for our students, staff, and faculty.",
+            'vision': "The Massry works to enhance the Center's standing as an innovative, research-oriented, diverse business school that provides experiential learning for our students and professional development for our students, staff, and faculty.",
             'leadership': [
                 'Dr. Kevin J. Williams Interim Dean',
                 'Janet Marler Associate Dean and Professor',
@@ -200,7 +200,7 @@ def get_building_info(request, building_slug):
 
         'university-hall-admissions': {
             'title': 'University Hall Admissions',
-            'mission': "We know there's greatness already in you - it's been there all along. Our offer to you is a simple one: let us help you be the best you. UAlbany is one of only 146 Research 1 institutions in the nation, it's students and faculty represent more than 100 nations, and it's one of only 290 institutions with a chapter of Phi Beta Kappa. We want you to see what we see — a blazing potential thats ready to be unleashed, and we'd love to have you join our family.",
+            'mission': "We, at UAlbany, know there's greatness already in you - it's been there all along. Our offer to you is a simple one: let us help you be the best you. UAlbany is one of only 146 Research 1 institutions in the nation, it's students and faculty represent more than 100 nations, and it's one of only 290 institutions with a chapter of Phi Beta Kappa. We want you to see what we see — a blazing potential thats ready to be unleashed, and we'd love to have you join our family.",
             'amenities': ['We offer 9 Schools & Colleges', '1200 World-Class Faculty Members with an 18:1 Student-Faculty Ratio', '170+ Research Labs & Centers', '300+ Student Clubs' ' And 19 NCAA Division I Athletic Teams'],
             'additional_info': [
 		'COSTS 2022-2023: NYS Resident Tuition: $7,070 || Out-of-State Tuition: $24,910 || Room, Board & Fees: $18,895',
@@ -208,7 +208,7 @@ def get_building_info(request, building_slug):
 	    ],
 	    'enroll': [
 		{'name': 'Enroll as a First Year Student', 'link': 'https://www.albany.edu/admissions/how-apply-first-year-student/'},
-                {'name': 'Transfer Student', 'link': 'https://www.albany.edu/admissions/how-apply-transfer-student/'},
+                {'name': 'Enroll as a Transfer Student', 'link': 'https://www.albany.edu/admissions/how-apply-transfer-student/'},
                 {'name': 'Scholarships & Aid', 'link': 'https://www.albany.edu/admissions/scholarships-aid/'},
             ],
             'access_hours_contact': {
