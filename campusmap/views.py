@@ -320,7 +320,7 @@ def get_building_info(request, building_slug):
 			The SEFCU Arena is available to rent to non-commercial entities for special events, games and practices.  
 			Full Arena rental is available for a daily flat rate or individual courts and/or track may be rented by the hour. 
 			Payments Accepted:  SEFCU Arena accepts cash and credit card transactions.  Accepted credit cards are Visa, AmEx, Mastercard and Discover.",
-	    'access_hours_contact': "varies by event" {
+	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
 					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
@@ -334,7 +334,7 @@ def get_building_info(request, building_slug):
             'mission': "John Fallon Field, the home for UAlbany men's and women's lacrosse, was completed in the fall of 2005.  
 			Fallon, a former UAlbany student-athlete, and a partner at Kay Scholer LLP in New York City, made a significant contribution to fund the construction of the all-weather turf field with permanent stands and press box. 
 			John Fallon Field is available to rent to non-commercial entities for lacrosse and field hockey games and practices at an hourly rate.",
-	    access_hours_contact': "varies by event" {
+	    access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
 					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
@@ -353,7 +353,7 @@ def get_building_info(request, building_slug):
 			Payments Accepted:  Tom & Mary Casey Stadium accepts cash and credit card transactions. 
 			Accepted credits cards are: Visa, AmEx, Mastercard and Discover. S
 			pecial campus parking is allocated for Football game days.",
-	    access_hours_contact': "varies by event" {
+	    access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
 					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
@@ -368,52 +368,52 @@ def get_building_info(request, building_slug):
 			The surface is Olympic-caliber Beynon BSS 2000 that features a force reduction layer of butyl rubber and full-depth color Polyurethane. 
 			There is a natural turf infield that includes a throws area as well as an irrigation system. There is also a separate hammer throw area adjacent to the venue. 
 			The venue, which is used strictly for track and field activities, was completed in the fall of 2013.",
-	    access_hours_contact': "varies by event" {
+	    access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
 					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
 				},
 			},	
             'amenities': ['Beynon BSS 2000 Track Surface', 'Hammer Throw', 'Covered Stands'],
-			},
+	},
 			
 	'ualbany-field': {
             'title': 'UAlbany Field',
             'mission': "UAlbany Field, just to the west of the Physical Education Building and Track & Field Complex, serves as the home venue for the UAlbany softball program.  
 			The facility has been used throughout the program's transition from NCAA Division III to its present Division I affiliation. 
 			UAlbany Field is available to rent to non-commercial entities for softball games and practices at an hourly rate",
-	    access_hours_contact': "varies by event" {
+	    access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
 					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
 				},
 			},	
             'amenities': ['Heated Dugouts', 'New Foul Poles', 'New Backstop & Fencing', 'Inning by Inning Scoreboard'],
-			},
+	},
 	
 	'varsity-field': {
             'title': 'Varsity Field',
             'mission': "In addition to the primary stadiums, UAlbany is also host to a number of less formal sporting fields used for practice, intramurals and general student use. 
 			Some of these fields at UAlbany are available to rent to non-commercial entities for various games and practices at an hourly rate",
-	    access_hours_contact': "varies by season" {
-					'contact_info: {
+	    access_hours_contact': {
+		    'contact_info: {
                     'Phone Number': "518-442-2562",
 					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
 				},
 			},	
             'amenities': ['New Warning Track & Foul Poles', 'Inning by Inning Scoreboard', 'Bullpens & Hitting Cages'],
-			},
+	},
 	
 	'other-facilities': {
             'title': 'Practice, Recreation and Intramural Fields',
             'mission': "In addition to the primary stadiums and fields, UAlbany is also host to a number of less formal sporting fields used for practice, intramurals and general student use. 
 			Some of these fields at UAlbany are available to rent to non-commercial entities for various games and practices at an hourly rate",
-	    access_hours_contact': "varies by season" {
-					'contact_info: {
+	    access_hours_contact': {
+		    'contact_info: {
                     'Phone Number': "518-442-2562",
-					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
 				},
-			},	
+	},	
             'amenities': ['Tennis Courts', 'Indoor Basketball Courts', 'Oudoor Basketball Courts', 'Grass Fields', 'Turf Fields', 'Low Ropes Course'],
 			},
 	
@@ -424,11 +424,11 @@ def get_building_info(request, building_slug):
 			Undergraduates have access to these facilities at no additional charge, while heavily discounted passes are available to graduate students and faculty. 
 			UAlbany seeks to promote a dynamic and all inclusive enviroment the enhances both the physical and academic aspects of exercise science.",
 	    access_hours_contact': {
-					'contact_info: {
-                    'Phone Number': "518-442-2627",
+			'contact_info: {
+                        'Phone Number': "518-442-2627",
 					'Email': "<a href="mailto:campusrec@albnay.edu"campusrec@albany.edu</a>"
-				},
-			},	
+		},
+	},	
             'amenities': ['Basketball Court', 'Training Rooms', 'Weight Rooms', 'Sports Medicine Center', 'Basketball Courts', 'Group Exercise Classes'],
 			'hours': [
                 'Monday: 7 a.m. to 10 p.m.',
@@ -438,9 +438,9 @@ def get_building_info(request, building_slug):
                 'Friday: 7 a.m. to 8 p.m.',
                 'Saturday: 11 a.m. to 7 p.m.',
                 'Sunday: 11 a.m. to 7 p.m.',
-            ],
-			},
-	
+        		],
+	   	},
+	},
 	'albany-nanotech': {
             'title': 'Albany Nanotech Complex',
             'mission': "The Albany NanoTech Complex is home to UAlbany's College of Nanoscale Science and Engineering. 
@@ -452,7 +452,7 @@ def get_building_info(request, building_slug):
 				},
 			},	
             'amenities': ['NanoFab Extension', 'NanoFab 200', 'Library', 'NYS Data Center', 'Advanced Cybersecurity Research Lab'],
-			},
+	},
     }
 
     building_info_selected = dict(building_info.get(building_slug, {}))
