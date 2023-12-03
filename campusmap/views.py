@@ -312,14 +312,7 @@ def get_building_info(request, building_slug):
 	    
     	'broadview-center': {
             'title': 'SEFCU Arena at Broadview Center',
-            'mission': "In the spring of 1992, the University at Albany opened the Broadview Center SEFCU Arena, an $11 million state-of-the-art facility.  
-			The SEFCU Arena is the home for UAlbany's men's and women's basketball teams, and has an .11 mile indoor track.  
-			The arena also serves as a major venue of community events such as concerts, sporting events and University activities. 
-			In 2017, the University at Albany has unveiled a new video scoreboard in SEFCU Arena that was made possible by a $1 million donation from Ed Swyer and Stuyvesant Plaza. 
-			The new board, which hangs above center court, will provide an video feed of the game, in-game statistics, and replay for the men's and women's basketball games. 
-			The SEFCU Arena is available to rent to non-commercial entities for special events, games and practices.  
-			Full Arena rental is available for a daily flat rate or individual courts and/or track may be rented by the hour. 
-			Payments Accepted:  SEFCU Arena accepts cash and credit card transactions.  Accepted credit cards are Visa, AmEx, Mastercard and Discover.",
+            'mission': "In the spring of 1992, the University at Albany opened the Broadview Center SEFCU Arena, an $11 million state-of-the-art facility.  The SEFCU Arena is the home for UAlbany's men's and women's basketball teams, and has an .11 mile indoor track.  The arena also serves as a major venue of community events such as concerts, sporting events and University activities. In 2017, the University at Albany has unveiled a new video scoreboard in SEFCU Arena that was made possible by a $1 million donation from Ed Swyer and Stuyvesant Plaza. The new board, which hangs above center court, will provide an video feed of the game, in-game statistics, and replay for the men's and women's basketball games. The SEFCU Arena is available to rent to non-commercial entities for special events, games and practices. Full Arena rental is available for a daily flat rate or individual courts and/or track may be rented by the hour. Payments Accepted:  SEFCU Arena accepts cash and credit card transactions.  Accepted credit cards are Visa, AmEx, Mastercard and Discover.",
 	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
