@@ -1,5 +1,5 @@
 # UAlbany Virtual Tour Campus Map
-Programmed by Akinde Mendoza, Jeremy J. Lam, Joseph A. Zarakas, Othmane Benkhalifa, & Godswill U. Utionkpan, for Professor Kimberly Cornell's Fall 2023 CINF 405 class.
+Programmed by Akinde Mendoza, Jeremy J. Lam, Joseph A. Zarakas, Othmane Benkhalifa, & Godswill Utionkpan, for Professor Kimberly Cornell's Fall 2023 CINF 405 class.
 # Setup Instructions
 
 ## Prerequisites
