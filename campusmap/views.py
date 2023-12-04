@@ -385,7 +385,7 @@ def get_building_info(request, building_slug):
             'title': 'Practice, Recreation and Intramural Fields',
             'mission': "In addition to the primary stadiums and fields, UAlbany is also host to a number of less formal sporting fields used for practice, intramurals and general student use. Some of these fields at UAlbany are available to rent to non-commercial entities for various games and practices at an hourly rate",
 	    'access_hours_contact': {
-		'contact_info: {
+		'contact_info': {
                     'Phone Number': "518-442-2562",
 		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
 		},
