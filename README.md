@@ -44,13 +44,17 @@ Ensure you have Python 3.9 or later installed on your system. If not, follow the
 
     The virtual tour map will be accessible at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
-   3.a.
+## In Case of Errors
 
-       While the script should install any missing dependencies, there are still certain situations that it cannot account for. If you run into any issues, make sure that             Python 3, Pip, and Git are installed. If you still continue to have issues, ensure that Python is installed on your computer's system path and run the following command        in Command Prompt to install Django under it:
+While the script should install any missing dependencies, there are still certain situations that it cannot account for. 
 
-       '''py -m pip install Django'''
+If the setup command crashes before it can start the server, make sure that Python 3, Pip, and Git are installed omn your device.  
 
-       After you complete this process, navigate back to the UAlbanyVirtualTour repository, and run the setup command again. 
+If you still continue to have issues, ensure that Python is installed in your computer's system path and run the following command in Command Prompt to install Django under it:
+
+'''py -m pip install Django'''
+
+After you complete this process, navigate back to the UAlbanyVirtualTour repository, and run the setup command again. 
 
 ## Project Structure
 
