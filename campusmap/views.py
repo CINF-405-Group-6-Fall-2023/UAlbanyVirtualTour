@@ -324,9 +324,7 @@ def get_building_info(request, building_slug):
 	    
 	'fallon-field': {
             'title': 'John Fallon Field',
-            'mission': "John Fallon Field, the home for UAlbany men's and women's lacrosse, was completed in the fall of 2005.  
-			Fallon, a former UAlbany student-athlete, and a partner at Kay Scholer LLP in New York City, made a significant contribution to fund the construction of the all-weather turf field with permanent stands and press box. 
-			John Fallon Field is available to rent to non-commercial entities for lacrosse and field hockey games and practices at an hourly rate.",
+            'mission': "John Fallon Field, the home for UAlbany men's and women's lacrosse, was completed in the fall of 2005. Fallon, a former UAlbany student-athlete, and a partner at Kay Scholer LLP in New York City, made a significant contribution to fund the construction of the all-weather turf field with permanent stands and press box. John Fallon Field is available to rent to non-commercial entities for lacrosse and field hockey games and practices at an hourly rate.",
 	    access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
@@ -338,14 +336,7 @@ def get_building_info(request, building_slug):
 
 	'bob-ford-field-at-tom-mary-casey-stadium': {
             'title': 'Bob Ford Field at Tom & Mary Casey Stadium',
-            'mission': "The field is named in honor of Bob Ford, who coached UAlbany football from its inception until 2013. 
-			It is $19 million multi sport complex that house 8500 seats, a 39x22 Daktronics Scoreboard and five luxury suites. 
-			The stadium just celebrated its 10th birthday, as construction was completed in Spring of 2013. 
-			Tom & Mary Casey Stadium is available to rent to non-commercial entities for special events, games and practices.  
-			Casey Stadium (press box, concourse and field) can be rented for a daily flat rate or access to Bob Ford Field only can be rented hourly. 
-			Payments Accepted:  Tom & Mary Casey Stadium accepts cash and credit card transactions. 
-			Accepted credits cards are: Visa, AmEx, Mastercard and Discover. S
-			pecial campus parking is allocated for Football game days.",
+            'mission': "The field is named in honor of Bob Ford, who coached UAlbany football from its inception until 2013. It is $19 million multi sport complex that house 8500 seats, a 39x22 Daktronics Scoreboard and five luxury suites. The stadium just celebrated its 10th birthday, as construction was completed in Spring of 2013. Tom & Mary Casey Stadium is available to rent to non-commercial entities for special events, games and practices. Casey Stadium (press box, concourse and field) can be rented for a daily flat rate or access to Bob Ford Field only can be rented hourly. Payments Accepted:  Tom & Mary Casey Stadium accepts cash and credit card transactions. Accepted credits cards are: Visa, AmEx, Mastercard and Discover. Special campus parking is allocated for Football game days.",
 	    access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
