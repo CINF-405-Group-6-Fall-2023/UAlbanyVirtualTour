@@ -74,10 +74,10 @@ def get_building_info(request, building_slug):
                     '* Closed 12:30pm to 1pm for lunch',
                 ],
                 'contact_info': {
-                    'main_office': '518-442-3995',
-                    'fax': '518-442-5099',
-                    'email': 'pac@albany.edu',
-                    'address': 'UAlbany Performing Arts Center PAC 266 1400 Washington Avenue Albany, NY 12222',
+                    'Main Office': '518-442-3995',
+                    'Fax': '518-442-5099',
+                    'Email': 'pac@albany.edu',
+                    'Address': 'UAlbany Performing Arts Center PAC 266 1400 Washington Avenue Albany, NY 12222',
                 },
             },                  
         },
@@ -315,7 +315,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
+		    'Email': 'mbenson@albany.edu',
                 },
             },
             'amenities': ['Basketball Court', '.11 mile track', 'Training facilities', 'Stage', 'Modular Configuration'],
@@ -327,7 +327,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
+		    'Email': 'mbenson@albany.edu',
 		},
 	    },	
             'amenities': ['All Weather Field', '2500 Person Capacity', 'Fieldturf Vertex Prime Turf'],
@@ -339,7 +339,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
+		    'Email': 'mbenson@albany.edu',
 		},
 	    },	
             'amenities': ['Luxury Suites', '8500 Person Capacity', 'Hot Food', 'Hot and Cold Beverages', 'Dedicated Parking'],
@@ -351,7 +351,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
+		    'Email': 'mbenson@albany.edu',
 		},
 	    },	
             'amenities': ['Beynon BSS 2000 Track Surface', 'Hammer Throw', 'Covered Stands'],
@@ -363,7 +363,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
+		    'Email': 'mbenson@albany.edu',
 		},
 	    },	
             'amenities': ['Heated Dugouts', 'New Foul Poles', 'New Backstop & Fencing', 'Inning by Inning Scoreboard'],
@@ -375,7 +375,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
 		'contact_info': {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
+		    'Email': 'mbenson@albany.edu',
 		},
 	    },	
             'amenities': ['New Warning Track & Foul Poles', 'Inning by Inning Scoreboard', 'Bullpens & Hitting Cages'],
@@ -387,7 +387,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
 		'contact_info': {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
+		    'Email': 'mbenson@albany.edu',
 		},
 	    },	
             'amenities': ['Tennis Courts', 'Indoor Basketball Courts', 'Oudoor Basketball Courts', 'Grass Fields', 'Turf Fields', 'Low Ropes Course'],
@@ -399,7 +399,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
 		'contact_info': {
                         'Phone Number': "518-442-2627",
-			'Email': "<a href="mailto:campusrec@albnay.edu"campusrec@albany.edu</a>",
+			'Email': 'campusrec@albany.edu',
 		},
 	    },	
             'amenities': ['Basketball Court', 'Training Rooms', 'Weight Rooms', 'Sports Medicine Center', 'Basketball Courts', 'Group Exercise Classes'],
@@ -420,7 +420,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
      		'contact_info': {
                     'Phone Number': "315-792-7500",
-		    'Email': "<a href="admissions@sunypoly.edu"admissions@sunypoly.edu</a>",
+		    'Email': 'admissions@sunypoly.edu',
 		 },
 	    },	
             'amenities': ['NanoFab Extension', 'NanoFab 200', 'Library', 'NYS Data Center', 'Advanced Cybersecurity Research Lab'],
