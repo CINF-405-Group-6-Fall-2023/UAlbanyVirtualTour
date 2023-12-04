@@ -348,10 +348,7 @@ def get_building_info(request, building_slug):
 	
 	'track-field-complex': {
             'title': 'Track and Field Complex',
-            'mission': "The new track and field venue, located adjacent to the Physical Education building in the site of former University Field, has a 9-lane IAAF certified track. 
-			The surface is Olympic-caliber Beynon BSS 2000 that features a force reduction layer of butyl rubber and full-depth color Polyurethane. 
-			There is a natural turf infield that includes a throws area as well as an irrigation system. There is also a separate hammer throw area adjacent to the venue. 
-			The venue, which is used strictly for track and field activities, was completed in the fall of 2013.",
+            'mission': "The new track and field venue, located adjacent to the Physical Education building in the site of former University Field, has a 9-lane IAAF certified track. The surface is Olympic-caliber Beynon BSS 2000 that features a force reduction layer of butyl rubber and full-depth color Polyurethane. There is a natural turf infield that includes a throws area as well as an irrigation system. There is also a separate hammer throw area adjacent to the venue. The venue, which is used strictly for track and field activities, was completed in the fall of 2013.",
 	    access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
@@ -363,9 +360,7 @@ def get_building_info(request, building_slug):
 			
 	'ualbany-field': {
             'title': 'UAlbany Field',
-            'mission': "UAlbany Field, just to the west of the Physical Education Building and Track & Field Complex, serves as the home venue for the UAlbany softball program.  
-			The facility has been used throughout the program's transition from NCAA Division III to its present Division I affiliation. 
-			UAlbany Field is available to rent to non-commercial entities for softball games and practices at an hourly rate",
+            'mission': "UAlbany Field, just to the west of the Physical Education Building and Track & Field Complex, serves as the home venue for the UAlbany softball program. The facility has been used throughout the program's transition from NCAA Division III to its present Division I affiliation. UAlbany Field is available to rent to non-commercial entities for softball games and practices at an hourly rate",
 	    access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
@@ -377,8 +372,7 @@ def get_building_info(request, building_slug):
 	
 	'varsity-field': {
             'title': 'Varsity Field',
-            'mission': "In addition to the primary stadiums, UAlbany is also host to a number of less formal sporting fields used for practice, intramurals and general student use. 
-			Some of these fields at UAlbany are available to rent to non-commercial entities for various games and practices at an hourly rate",
+            'mission': "In addition to the primary stadiums, UAlbany is also host to a number of less formal sporting fields used for practice, intramurals and general student use. Some of these fields at UAlbany are available to rent to non-commercial entities for various games and practices at an hourly rate",
 	    access_hours_contact': {
 		    'contact_info: {
                     'Phone Number': "518-442-2562",
@@ -390,8 +384,7 @@ def get_building_info(request, building_slug):
 	
 	'other-facilities': {
             'title': 'Practice, Recreation and Intramural Fields',
-            'mission': "In addition to the primary stadiums and fields, UAlbany is also host to a number of less formal sporting fields used for practice, intramurals and general student use. 
-			Some of these fields at UAlbany are available to rent to non-commercial entities for various games and practices at an hourly rate",
+            'mission': "In addition to the primary stadiums and fields, UAlbany is also host to a number of less formal sporting fields used for practice, intramurals and general student use. Some of these fields at UAlbany are available to rent to non-commercial entities for various games and practices at an hourly rate",
 	    access_hours_contact': {
 		    'contact_info: {
                     'Phone Number': "518-442-2562",
@@ -403,10 +396,7 @@ def get_building_info(request, building_slug):
 	
 	'physical-education-building': {
             'title': 'Practice, Recreation and Intramural Fields',
-            'mission': "The Physical Education Building on the Campus of UAlbany houses serves the unvirsity as a whole, with special focus on health education, campus recreation and varsity athletes. 
-			The Building is will equipped with fitness centers, weight rooms, specialized areas for group fitness classes, all while encouraging a holistic approach for physical well being. 
-			Undergraduates have access to these facilities at no additional charge, while heavily discounted passes are available to graduate students and faculty. 
-			UAlbany seeks to promote a dynamic and all inclusive enviroment the enhances both the physical and academic aspects of exercise science.",
+            'mission': "The Physical Education Building on the Campus of UAlbany houses serves the unvirsity as a whole, with special focus on health education, campus recreation and varsity athletes. The Building is will equipped with fitness centers, weight rooms, specialized areas for group fitness classes, all while encouraging a holistic approach for physical well being. Undergraduates have access to these facilities at no additional charge, while heavily discounted passes are available to graduate students and faculty. UAlbany seeks to promote a dynamic and all inclusive enviroment the enhances both the physical and academic aspects of exercise science.",
 	    access_hours_contact': {
 			'contact_info: {
                         'Phone Number': "518-442-2627",
@@ -427,9 +417,7 @@ def get_building_info(request, building_slug):
 	},
 	'albany-nanotech': {
             'title': 'Albany Nanotech Complex',
-            'mission': "The Albany NanoTech Complex is home to UAlbany's College of Nanoscale Science and Engineering. 
-	The site offers a fully-integrated research, development, prototyping, and educational facility that provides strategic support through outreach, technology acceleration, business incubation, pilot prototyping, and test-based integration support for onsite corporate partners including 
-	IBM, GlobalFoundries, Samsung, Applied Materials, Tokyo Electron, ASML and Lam Research, as well as other “next generation” nanotechnology research activities, including hands-on internships for students along with career opportunities.",
+            'mission': "The Albany NanoTech Complex is home to UAlbany's College of Nanoscale Science and Engineering. The site offers a fully-integrated research, development, prototyping, and educational facility that provides strategic support through outreach, technology acceleration, business incubation, pilot prototyping, and test-based integration support for onsite corporate partners including IBM, GlobalFoundries, Samsung, Applied Materials, Tokyo Electron, ASML and Lam Research, as well as other “next generation” nanotechnology research activities, including hands-on internships for students along with career opportunities.",
 	    access_hours_contact': 
                     'Phone Number': "315-792-7500",
 					'Email': "<a href="admissions@sunypoly.edu"admissions@sunypoly.edu</a>"
