@@ -301,7 +301,6 @@ def get_building_info(request, building_slug):
             },
             'amenities': ['Double Bedrooms', 'Fully furnished living rooms', 'Fully Equipped Kitchens', 'Accessibility', 'Utilities', 'Patio', 'Gender Inclusive Housing', 'Shuttle Bus Stop', 'Parking'],
         },
-
 		
 	'boor-sculpture-studio': {
             'title': 'Boor Sculpture Studio',
@@ -316,7 +315,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
                 },
             },
             'amenities': ['Basketball Court', '.11 mile track', 'Training facilities', 'Stage', 'Modular Configuration'],
@@ -325,86 +324,86 @@ def get_building_info(request, building_slug):
 	'fallon-field': {
             'title': 'John Fallon Field',
             'mission': "John Fallon Field, the home for UAlbany men's and women's lacrosse, was completed in the fall of 2005. Fallon, a former UAlbany student-athlete, and a partner at Kay Scholer LLP in New York City, made a significant contribution to fund the construction of the all-weather turf field with permanent stands and press box. John Fallon Field is available to rent to non-commercial entities for lacrosse and field hockey games and practices at an hourly rate.",
-	    access_hours_contact': {
+	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
-				},
-			},	
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		},
+	    },	
             'amenities': ['All Weather Field', '2500 Person Capacity', 'Fieldturf Vertex Prime Turf'],
         },
 
 	'bob-ford-field-at-tom-mary-casey-stadium': {
             'title': 'Bob Ford Field at Tom & Mary Casey Stadium',
             'mission': "The field is named in honor of Bob Ford, who coached UAlbany football from its inception until 2013. It is $19 million multi sport complex that house 8500 seats, a 39x22 Daktronics Scoreboard and five luxury suites. The stadium just celebrated its 10th birthday, as construction was completed in Spring of 2013. Tom & Mary Casey Stadium is available to rent to non-commercial entities for special events, games and practices. Casey Stadium (press box, concourse and field) can be rented for a daily flat rate or access to Bob Ford Field only can be rented hourly. Payments Accepted:  Tom & Mary Casey Stadium accepts cash and credit card transactions. Accepted credits cards are: Visa, AmEx, Mastercard and Discover. Special campus parking is allocated for Football game days.",
-	    access_hours_contact': {
+	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
-				},
-			},	
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		},
+	    },	
             'amenities': ['Luxury Suites', '8500 Person Capacity', 'Hot Food', 'Hot and Cold Beverages', 'Dedicated Parking'],
         },
 	
 	'track-field-complex': {
             'title': 'Track and Field Complex',
             'mission': "The new track and field venue, located adjacent to the Physical Education building in the site of former University Field, has a 9-lane IAAF certified track. The surface is Olympic-caliber Beynon BSS 2000 that features a force reduction layer of butyl rubber and full-depth color Polyurethane. There is a natural turf infield that includes a throws area as well as an irrigation system. There is also a separate hammer throw area adjacent to the venue. The venue, which is used strictly for track and field activities, was completed in the fall of 2013.",
-	    access_hours_contact': {
+	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
-				},
-			},	
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		},
+	    },	
             'amenities': ['Beynon BSS 2000 Track Surface', 'Hammer Throw', 'Covered Stands'],
 	},
 			
 	'ualbany-field': {
             'title': 'UAlbany Field',
             'mission': "UAlbany Field, just to the west of the Physical Education Building and Track & Field Complex, serves as the home venue for the UAlbany softball program. The facility has been used throughout the program's transition from NCAA Division III to its present Division I affiliation. UAlbany Field is available to rent to non-commercial entities for softball games and practices at an hourly rate",
-	    access_hours_contact': {
+	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
-				},
-			},	
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		},
+	    },	
             'amenities': ['Heated Dugouts', 'New Foul Poles', 'New Backstop & Fencing', 'Inning by Inning Scoreboard'],
 	},
 	
 	'varsity-field': {
             'title': 'Varsity Field',
             'mission': "In addition to the primary stadiums, UAlbany is also host to a number of less formal sporting fields used for practice, intramurals and general student use. Some of these fields at UAlbany are available to rent to non-commercial entities for various games and practices at an hourly rate",
-	    access_hours_contact': {
+	    'access_hours_contact': {
 		    'contact_info: {
                     'Phone Number': "518-442-2562",
-					'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
-				},
-			},	
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		},
+	    },	
             'amenities': ['New Warning Track & Foul Poles', 'Inning by Inning Scoreboard', 'Bullpens & Hitting Cages'],
 	},
 	
 	'other-facilities': {
             'title': 'Practice, Recreation and Intramural Fields',
             'mission': "In addition to the primary stadiums and fields, UAlbany is also host to a number of less formal sporting fields used for practice, intramurals and general student use. Some of these fields at UAlbany are available to rent to non-commercial entities for various games and practices at an hourly rate",
-	    access_hours_contact': {
-		    'contact_info: {
+	    'access_hours_contact': {
+		'contact_info: {
                     'Phone Number': "518-442-2562",
 		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
-				},
-	},	
+		},
+	    },	
             'amenities': ['Tennis Courts', 'Indoor Basketball Courts', 'Oudoor Basketball Courts', 'Grass Fields', 'Turf Fields', 'Low Ropes Course'],
-			},
+	},
 	
 	'physical-education-building': {
             'title': 'Practice, Recreation and Intramural Fields',
             'mission': "The Physical Education Building on the Campus of UAlbany houses serves the unvirsity as a whole, with special focus on health education, campus recreation and varsity athletes. The Building is will equipped with fitness centers, weight rooms, specialized areas for group fitness classes, all while encouraging a holistic approach for physical well being. Undergraduates have access to these facilities at no additional charge, while heavily discounted passes are available to graduate students and faculty. UAlbany seeks to promote a dynamic and all inclusive enviroment the enhances both the physical and academic aspects of exercise science.",
-	    access_hours_contact': {
-			'contact_info: {
+	    'access_hours_contact': {
+		'contact_info: {
                         'Phone Number': "518-442-2627",
-					'Email': "<a href="mailto:campusrec@albnay.edu"campusrec@albany.edu</a>"
+			'Email': "<a href="mailto:campusrec@albnay.edu"campusrec@albany.edu</a>"
 		},
-	},	
+	    },	
             'amenities': ['Basketball Court', 'Training Rooms', 'Weight Rooms', 'Sports Medicine Center', 'Basketball Courts', 'Group Exercise Classes'],
-			'hours': [
+	    'hours': [
                 'Monday: 7 a.m. to 10 p.m.',
                 'Tuesday: 7 a.m. to 10 p.m.',
                 'Wednesday: 7 a.m. to 10 p.m.',
@@ -412,21 +411,20 @@ def get_building_info(request, building_slug):
                 'Friday: 7 a.m. to 8 p.m.',
                 'Saturday: 11 a.m. to 7 p.m.',
                 'Sunday: 11 a.m. to 7 p.m.',
-        		],
-	   	},
+            ],
 	},
+ 
 	'albany-nanotech': {
             'title': 'Albany Nanotech Complex',
             'mission': "The Albany NanoTech Complex is home to UAlbany's College of Nanoscale Science and Engineering. The site offers a fully-integrated research, development, prototyping, and educational facility that provides strategic support through outreach, technology acceleration, business incubation, pilot prototyping, and test-based integration support for onsite corporate partners including IBM, GlobalFoundries, Samsung, Applied Materials, Tokyo Electron, ASML and Lam Research, as well as other “next generation” nanotechnology research activities, including hands-on internships for students along with career opportunities.",
-	    access_hours_contact': {
-     		    'contact_info: {
+	    'access_hours_contact': {
+     		'contact_info: {
                     'Phone Number': "315-792-7500",
-					'Email': "<a href="admissions@sunypoly.edu"admissions@sunypoly.edu</a>"
+		    'Email': "<a href="admissions@sunypoly.edu"admissions@sunypoly.edu</a>"
 		 },
-	},	
+	    },	
             'amenities': ['NanoFab Extension', 'NanoFab 200', 'Library', 'NYS Data Center', 'Advanced Cybersecurity Research Lab'],
-	},
-    }
+        },
 
     building_info_selected = dict(building_info.get(building_slug, {}))
     if not building_info_selected:
