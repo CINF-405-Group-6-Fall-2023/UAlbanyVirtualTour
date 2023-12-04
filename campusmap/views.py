@@ -315,7 +315,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
                 },
             },
             'amenities': ['Basketball Court', '.11 mile track', 'Training facilities', 'Stage', 'Modular Configuration'],
@@ -327,7 +327,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
 		},
 	    },	
             'amenities': ['All Weather Field', '2500 Person Capacity', 'Fieldturf Vertex Prime Turf'],
@@ -339,7 +339,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
 		},
 	    },	
             'amenities': ['Luxury Suites', '8500 Person Capacity', 'Hot Food', 'Hot and Cold Beverages', 'Dedicated Parking'],
@@ -351,7 +351,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
 		},
 	    },	
             'amenities': ['Beynon BSS 2000 Track Surface', 'Hammer Throw', 'Covered Stands'],
@@ -363,7 +363,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
                 'contact_info': {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
 		},
 	    },	
             'amenities': ['Heated Dugouts', 'New Foul Poles', 'New Backstop & Fencing', 'Inning by Inning Scoreboard'],
@@ -373,9 +373,9 @@ def get_building_info(request, building_slug):
             'title': 'Varsity Field',
             'mission': "In addition to the primary stadiums, UAlbany is also host to a number of less formal sporting fields used for practice, intramurals and general student use. Some of these fields at UAlbany are available to rent to non-commercial entities for various games and practices at an hourly rate",
 	    'access_hours_contact': {
-		    'contact_info: {
+		'contact_info: {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
 		},
 	    },	
             'amenities': ['New Warning Track & Foul Poles', 'Inning by Inning Scoreboard', 'Bullpens & Hitting Cages'],
@@ -387,7 +387,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
 		'contact_info: {
                     'Phone Number': "518-442-2562",
-		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>"
+		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
 		},
 	    },	
             'amenities': ['Tennis Courts', 'Indoor Basketball Courts', 'Oudoor Basketball Courts', 'Grass Fields', 'Turf Fields', 'Low Ropes Course'],
@@ -399,7 +399,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
 		'contact_info: {
                         'Phone Number': "518-442-2627",
-			'Email': "<a href="mailto:campusrec@albnay.edu"campusrec@albany.edu</a>"
+			'Email': "<a href="mailto:campusrec@albnay.edu"campusrec@albany.edu</a>",
 		},
 	    },	
             'amenities': ['Basketball Court', 'Training Rooms', 'Weight Rooms', 'Sports Medicine Center', 'Basketball Courts', 'Group Exercise Classes'],
@@ -420,7 +420,7 @@ def get_building_info(request, building_slug):
 	    'access_hours_contact': {
      		'contact_info: {
                     'Phone Number': "315-792-7500",
-		    'Email': "<a href="admissions@sunypoly.edu"admissions@sunypoly.edu</a>"
+		    'Email': "<a href="admissions@sunypoly.edu"admissions@sunypoly.edu</a>",
 		 },
 	    },	
             'amenities': ['NanoFab Extension', 'NanoFab 200', 'Library', 'NYS Data Center', 'Advanced Cybersecurity Research Lab'],
