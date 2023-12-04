@@ -52,7 +52,9 @@ If the setup command crashes before it can start the server, make sure that Pyth
 
 If you still continue to have issues, ensure that Python is installed in your computer's system path and run the following command in Command Prompt to install Django under it:
 
-'''py -m pip install Django'''
+```bash
+py -m pip install Django
+```
 
 After you complete this process, navigate back to the UAlbanyVirtualTour repository, and run the setup command again. 
 
