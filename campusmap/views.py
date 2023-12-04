@@ -373,7 +373,7 @@ def get_building_info(request, building_slug):
             'title': 'Varsity Field',
             'mission': "In addition to the primary stadiums, UAlbany is also host to a number of less formal sporting fields used for practice, intramurals and general student use. Some of these fields at UAlbany are available to rent to non-commercial entities for various games and practices at an hourly rate",
 	    'access_hours_contact': {
-		'contact_info: {
+		'contact_info': {
                     'Phone Number': "518-442-2562",
 		    'Email': "<a href="mailto:mbenson@albany.edu"mbenson@albany.edu</a>",
 		},
@@ -397,7 +397,7 @@ def get_building_info(request, building_slug):
             'title': 'Practice, Recreation and Intramural Fields',
             'mission': "The Physical Education Building on the Campus of UAlbany houses serves the unvirsity as a whole, with special focus on health education, campus recreation and varsity athletes. The Building is will equipped with fitness centers, weight rooms, specialized areas for group fitness classes, all while encouraging a holistic approach for physical well being. Undergraduates have access to these facilities at no additional charge, while heavily discounted passes are available to graduate students and faculty. UAlbany seeks to promote a dynamic and all inclusive enviroment the enhances both the physical and academic aspects of exercise science.",
 	    'access_hours_contact': {
-		'contact_info: {
+		'contact_info': {
                         'Phone Number': "518-442-2627",
 			'Email': "<a href="mailto:campusrec@albnay.edu"campusrec@albany.edu</a>",
 		},
@@ -418,7 +418,7 @@ def get_building_info(request, building_slug):
             'title': 'Albany Nanotech Complex',
             'mission': "The Albany NanoTech Complex is home to UAlbany's College of Nanoscale Science and Engineering. The site offers a fully-integrated research, development, prototyping, and educational facility that provides strategic support through outreach, technology acceleration, business incubation, pilot prototyping, and test-based integration support for onsite corporate partners including IBM, GlobalFoundries, Samsung, Applied Materials, Tokyo Electron, ASML and Lam Research, as well as other “next generation” nanotechnology research activities, including hands-on internships for students along with career opportunities.",
 	    'access_hours_contact': {
-     		'contact_info: {
+     		'contact_info': {
                     'Phone Number': "315-792-7500",
 		    'Email': "<a href="admissions@sunypoly.edu"admissions@sunypoly.edu</a>",
 		 },
