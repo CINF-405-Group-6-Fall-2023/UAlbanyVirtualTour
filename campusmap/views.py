@@ -201,7 +201,6 @@ def get_building_info(request, building_slug):
         'university-hall-admissions': {
             'title': 'University Hall Admissions',
             'mission': "We, at UAlbany, know there's greatness already in you - it's been there all along. Our offer to you is a simple one: let us help you be the best you. UAlbany is one of only 146 Research 1 institutions in the nation, it's students and faculty represent more than 100 nations, and it's one of only 290 institutions with a chapter of Phi Beta Kappa. We want you to see what we see — a blazing potential thats ready to be unleashed, and we'd love to have you join our family.",
-            'amenities': ['We offer 9 Schools & Colleges', '1200 World-Class Faculty Members with an 18:1 Student-Faculty Ratio', '170+ Research Labs & Centers', '300+ Student Clubs' ' And 19 NCAA Division I Athletic Teams'],
             'additional_info': [
 		'COSTS 2022-2023: NYS Resident Tuition: $7,070 || Out-of-State Tuition: $24,910 || Room, Board & Fees: $18,895',
                 'ENROLLMENT: 12,654 undergraduates || 4,421 graduate students || 2,800 new first-years || 1,300 new transfers',
@@ -211,6 +210,7 @@ def get_building_info(request, building_slug):
                 {'name': 'Enroll as a Transfer Student', 'link': 'https://www.albany.edu/admissions/how-apply-transfer-student/'},
                 {'name': 'Scholarships & Aid', 'link': 'https://www.albany.edu/admissions/scholarships-aid/'},
             ],
+	    'amenities': ['We offer 9 Schools & Colleges', '1200 World-Class Faculty Members with an 18:1 Student-Faculty Ratio', '170+ Research Labs & Centers', '300+ Student Clubs', ' And 19 NCAA Division I Athletic Teams'],
             'access_hours_contact': {
                 'building_access': [
                     'Appointments: 9 a.m. to 5 p.m. Monday to Friday',
