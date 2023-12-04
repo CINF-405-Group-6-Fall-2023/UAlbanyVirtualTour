@@ -48,7 +48,7 @@ Ensure you have Python 3.9 or later installed on your system. If not, follow the
 
 While the script should install any missing dependencies, there are still certain situations that it cannot account for. 
 
-If the setup command crashes before it can start the server, make sure that Python 3, Pip, and Git are installed omn your device.  
+If the setup command crashes before it can start the server, make sure that Python 3, Pip, and Git are installed on your device.  
 
 If you still continue to have issues, ensure that Python is installed in your computer's system path and run the following command in Command Prompt to install Django under it:
 
