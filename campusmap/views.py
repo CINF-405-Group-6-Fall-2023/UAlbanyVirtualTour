@@ -418,11 +418,12 @@ def get_building_info(request, building_slug):
 	'albany-nanotech': {
             'title': 'Albany Nanotech Complex',
             'mission': "The Albany NanoTech Complex is home to UAlbany's College of Nanoscale Science and Engineering. The site offers a fully-integrated research, development, prototyping, and educational facility that provides strategic support through outreach, technology acceleration, business incubation, pilot prototyping, and test-based integration support for onsite corporate partners including IBM, GlobalFoundries, Samsung, Applied Materials, Tokyo Electron, ASML and Lam Research, as well as other “next generation” nanotechnology research activities, including hands-on internships for students along with career opportunities.",
-	    access_hours_contact': 
+	    access_hours_contact': {
+     		    'contact_info: {
                     'Phone Number': "315-792-7500",
 					'Email': "<a href="admissions@sunypoly.edu"admissions@sunypoly.edu</a>"
-				},
-			},	
+		 },
+	},	
             'amenities': ['NanoFab Extension', 'NanoFab 200', 'Library', 'NYS Data Center', 'Advanced Cybersecurity Research Lab'],
 	},
     }
