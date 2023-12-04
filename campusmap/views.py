@@ -426,26 +426,25 @@ def get_building_info(request, building_slug):
             'amenities': ['NanoFab Extension', 'NanoFab 200', 'Library', 'NYS Data Center', 'Advanced Cybersecurity Research Lab'],
         },
 
-	  'etec': {
-            'title': 'Emerging Technology and Entrepreneurship Complex (ETEC)',
-	    'about': 'ETEC is a $180 million, 246,000 square foot state-of-the-art building that “houses” researchers, educators and entrepreneurs under the same roof as some of UAlbany\’s fastest-growing programs. ETEC is the largest instructional building on the Uptown Campus. Its 40+ labs house more than 200 full-time faculty and researchers, 100 research and industry partners.',
-            'mission': 'WEATHER. CLIMATE. EMERGENCY PREPAREDNESS. SUSTAINABILITY.',
-		   	'These disciplines are preparing tomorrow\’s leaders to tackle the most serious challenges facing humankind. Individually, they yield critical new knowledge. But when co-located inside ETEC, UAlbany\’s newest state-of-the-art and environmentally sustainable facility, they become a striking example of how a whole can be greater than the sum of its parts. ETEC is a hub for innovation, scholarship, applied research and commercial development designed to foster cross-disciplinary collaborations to confront complex problems. Inside, students, faculty and researchers work hand-in-hand with entrepreneurs to translate new knowledge into creative solutions that fuel economic growth and create jobs.',
-	    'info': 'ETEC leverages an asset that no other university in New York can: UAlbany\’s proximity to the nerve center of New York State policy and decision-making. Located across the street from the New York State Division of Homeland Security and Emergency Services (DHSES), Office of Emergency Management and the New York State Police, ETEC offers UAlbany students, faculty and staff unparalleled applied learning and research opportunities in partnership with key agencies working to make New York safer, more prepared and more resilient.',
-	    'complex-houses': [
-                    'The College of Emergency Preparedness, Homeland Security and Cybersecurity',
+	'etec': {
+	    'title': 'Emerging Technology and Entrepreneurship Complex (ETEC)',
+	    'mission': 'ETEC is a $180 million, 246,000 square foot state-of-the-art building that “houses” researchers, educators and entrepreneurs under the same roof as some of UAlbany\’s fastest-growing programs. It is the largest instructional building on the Uptown Campus, housing 40+ labs and employing more than 200 full-time faculty and researchers and 100 research and industry partners.',
+	    'ideals': 'WEATHER. CLIMATE. EMERGENCY PREPAREDNESS. SUSTAINABILITY. These disciplines are preparing tomorrow\’s leaders to tackle the most serious challenges facing humankind. Individually, they yield new, critical knowledge; but when co-located inside ETEC, UAlbany\’s newest state-of-the-art and environmentally sustainable facility, they become a striking example of how a whole can be greater than the sum of its parts. ETEC is a hub for innovation, scholarship, applied research and commercial development designed to foster cross-disciplinary collaborations to confront complex problems. Inside, students, faculty and researchers work hand-in-hand with entrepreneurs to translate new knowledge into creative solutions that fuel economic growth and create jobs.',
+	    'vision': 'By leveraging an asset that no other university in New York can - UAlbany\’s proximity to the nerve center of New York State policy and decision-making through its location across the street from the New York State Division of Homeland Security and Emergency Services (DHSES), Office of Emergency Management and the New York State Police - ETEC offers UAlbany students, faculty and staff unparalleled applied learning and research opportunities in partnership with key agencies working to make New York safer, more prepared and more resilient.',
+	    'amenities': [
+		    'The College of Emergency Preparedness, Homeland Security and Cybersecurity',
 		    'The College of Nanotechnology, Science, and Engineerings: Department of Environmental Engineering and Department of Electrical and Computer Engineering.',
-      		    'The College of Arts and Sciences: Department of Atmospheric and Environmental Sciences and Department of Chemistry research labs',
-      		    'Atmospheric Sciences Research Center',
-      		    'Center of Excellence in Weather & Climate Analytics',
-      		    'The National Weather Service’s  Regional Forecast Office and Training Program',
-      		    'The New York State Mesonet',
-      		    'The Small Business Development Center',
-      		    'Office for Innovation Development and Commercialization/Technology Transfer',
-      	  	    'Cybersecurity and Artificial Intelligence Institute',
-      		    'Private partners such as TruWeather Solutions LLC',
+		    'The College of Arts and Sciences: Department of Atmospheric and Environmental Sciences and Department of Chemistry research labs',
+		    'Atmospheric Sciences Research Center',
+		    'Center of Excellence in Weather & Climate Analytics',
+		    'The National Weather Service’s  Regional Forecast Office and Training Program',
+		    'The New York State Mesonet',
+		    'The Small Business Development Center',
+		    'Office for Innovation Development and Commercialization/Technology Transfer',
+		    'Cybersecurity and Artificial Intelligence Institute',
+		    'Private partners such as TruWeather Solutions LLC',
 	    ],
-	    },	 
+	},	 
     }
     
     building_info_selected = dict(building_info.get(building_slug, {}))
