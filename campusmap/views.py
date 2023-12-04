@@ -425,7 +425,8 @@ def get_building_info(request, building_slug):
 	    },	
             'amenities': ['NanoFab Extension', 'NanoFab 200', 'Library', 'NYS Data Center', 'Advanced Cybersecurity Research Lab'],
         },
-
+    },
+    
     building_info_selected = dict(building_info.get(building_slug, {}))
     if not building_info_selected:
         raise Http404("Building not found")
